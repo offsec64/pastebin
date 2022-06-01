@@ -1,0 +1,3574 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cpq_package version="2.0.1.0">
+  <filename>CP033363.scexe</filename>
+  <divisions>
+    <division key="9">
+      <division_xlate lang="cn">存储设备</division_xlate>
+      <division_xlate lang="en">Storage</division_xlate>
+      <division_xlate lang="ja">ストレージ</division_xlate>
+      <division_xlate lang="ko">스토리지</division_xlate>
+      <division_xlate lang="tw">儲存裝置</division_xlate>
+    </division>
+    <division key="6">
+      <division_xlate lang="cn">服务器</division_xlate>
+      <division_xlate lang="en">Server</division_xlate>
+      <division_xlate lang="ja">サーバ</division_xlate>
+      <division_xlate lang="ko">서버</division_xlate>
+      <division_xlate lang="tw">伺服器</division_xlate>
+    </division>
+  </divisions>
+  <operating_systems>
+    <operating_system key="1136">
+      <operating_system_xlate>Microsoft Windows Server 2008 x64</operating_system_xlate>
+    </operating_system>
+    <operating_system key="1141">
+      <operating_system_xlate>SUSE LINUX Enterprise Server 10 (AMD64/EM64T)</operating_system_xlate>
+    </operating_system>
+    <operating_system key="1147">
+      <operating_system_xlate>Red Hat Enterprise Linux 5 Server (x86-64)</operating_system_xlate>
+    </operating_system>
+    <operating_system key="2951">
+      <operating_system_xlate>SUSE LINUX Enterprise Server 11 (AMD64/EM64T)</operating_system_xlate>
+    </operating_system>
+    <operating_system key="">
+      <operating_system_xlate>Red Hat Enterprise Linux 6 Server (x86-64)</operating_system_xlate>
+    </operating_system>
+    <operating_system key="">
+      <operating_system_xlate>Microsoft Windows Server 2012</operating_system_xlate>
+    </operating_system>
+    <operating_system key="">
+      <operating_system_xlate>Microsoft Windows Server 2012 Essentials</operating_system_xlate>
+    </operating_system>
+    <operating_system key="">
+      <operating_system_xlate>Microsoft Windows Server 2012 R2</operating_system_xlate>
+    </operating_system>
+    <operating_system key="">
+      <operating_system_xlate>VMware vSphere 5.5</operating_system_xlate>
+    </operating_system>
+    <operating_system key="">
+      <operating_system_xlate>VMware ESXi 5.0</operating_system_xlate>
+    </operating_system>
+    <operating_system key="">
+      <operating_system_xlate>VMware vSphere 5.1</operating_system_xlate>
+    </operating_system>
+    <operating_system key="">
+      <operating_system_xlate>Red Hat Enterprise Linux 7 Server</operating_system_xlate>
+    </operating_system>
+    <operating_system key="">
+      <operating_system_xlate>SUSE Linux Enterprise Server 12</operating_system_xlate>
+    </operating_system>
+    <operating_system key="">
+      <operating_system_xlate>Microsoft Windows Server 2008 R2</operating_system_xlate>
+    </operating_system>
+    <operating_system key="">
+      <operating_system_xlate>VMware vSphere 6.0</operating_system_xlate>
+    </operating_system>
+    <operating_system key="">
+      <operating_system_xlate>Microsoft Windows Server 2016</operating_system_xlate>
+    </operating_system>
+  </operating_systems>
+  <products>
+    <product rom="I38"/>
+    <product rom="A26"/>
+    <product rom="I36"/>
+    <product rom="I31"/>
+    <product rom="I30"/>
+    <product rom="A28"/>
+    <product rom="P70"/>
+    <product rom="P73"/>
+    <product rom="P71"/>
+    <product rom="P73"/>
+    <product rom="J03"/>
+    <product rom="P72"/>
+    <product rom="P75"/>
+    <product rom="P75"/>
+    <product rom="P75"/>
+    <product rom="P74"/>
+    <product rom="I32"/>
+    <product rom="P77"/>
+    <product rom="J05"/>
+    <product rom="J02"/>
+    <product rom="J04"/>
+    <product rom="P74"/>
+    <product rom="I31"/>
+  </products>
+  <category key="2900214">
+    <category_xlate lang="cn">固件 - 存储控制器</category_xlate>
+    <category_xlate lang="de">Firmware - Speichercontroller</category_xlate>
+    <category_xlate lang="en">Firmware - Storage Controller</category_xlate>
+    <category_xlate lang="es">Firmware - Controlador de almacenamiento</category_xlate>
+    <category_xlate lang="fr">Micrologiciel - Contrôleur de stockage</category_xlate>
+    <category_xlate lang="it">Firmware - Controller di memorizzazione</category_xlate>
+    <category_xlate lang="ja">ファームウェア - ストレージ コントローラ</category_xlate>
+    <category_xlate lang="ko">펌웨어 - 스토리지 컨트롤러</category_xlate>
+    <category_xlate lang="tw">韌體 ─ 儲存裝置控制器</category_xlate>
+  </category>
+  <id product="8e395b40b6dc47ff9696c46179cb8065" version="42b6aa58956a438aa85bd73d0f2473f8"/>
+  <name>
+    <name_xlate lang="cn">Linux (x64)版补充更新 /在线ROM刷新组件 - 智能阵列 P220i、P222、P420i、P420、P421、P721m和P822</name_xlate>
+    <name_xlate lang="de">Supplemental Update / Online ROM Flash Component for Linux (x64) - Smart Array P220i, P222, P420i, P420, P421, P721m, and P822</name_xlate>
+    <name_xlate lang="en">Supplemental Update / Online ROM Flash Component for Linux (x64) - Smart Array P220i, P222, P420i, P420, P421, P721m, and P822</name_xlate>
+    <name_xlate lang="es">Supplemental Update / Online ROM Flash Component for Linux (x64) - Smart Array P220i, P222, P420i, P420, P421, P721m, and P822</name_xlate>
+    <name_xlate lang="fr">Supplemental Update / Online ROM Flash Component for Linux (x64) - Smart Array P220i, P222, P420i, P420, P421, P721m, and P822</name_xlate>
+    <name_xlate lang="it">Supplemental Update / Online ROM Flash Component for Linux (x64) - Smart Array P220i, P222, P420i, P420, P421, P721m, and P822</name_xlate>
+    <name_xlate lang="ja">サプリメンタルアップデート / オンラインROMフラッシュコンポーネント for Linux (x64) - SmartアレイP220i、P222、P420i、P420、P421、P721m、およびP822</name_xlate>
+    <name_xlate lang="ko">Linux(x64)용 추가 업데이트/온라인 ROM 플래시 구성 요소 - 스마트 어레이 P220i, P222, P420i, P420, P421, P721m 및 P822</name_xlate>
+    <name_xlate lang="tw">適用於 Linux (x64) 的補充更新/線上 ROM 更新元件 - Smart Array P220i、P222、P420i、P420、P421、P721m 與 P822</name_xlate>
+  </name>
+  <alt_name>
+    <alt_name_xlate lang="cn">智能阵列 P220i、P222、P420i、P420、P421、P721m 和 P822</alt_name_xlate>
+    <alt_name_xlate lang="de">Smart Array P220i, P222, P420i, P420, P421, P721m, and P822</alt_name_xlate>
+    <alt_name_xlate lang="en">Smart Array P220i, P222, P420i, P420, P421, P721m, and P822</alt_name_xlate>
+    <alt_name_xlate lang="es">Smart Array P220i, P222, P420i, P420, P421, P721m, and P822</alt_name_xlate>
+    <alt_name_xlate lang="fr">Smart Array P220i, P222, P420i, P420, P421, P721m, and P822</alt_name_xlate>
+    <alt_name_xlate lang="it">Smart Array P220i, P222, P420i, P420, P421, P721m, and P822</alt_name_xlate>
+    <alt_name_xlate lang="ja">SmartアレイP220i、P222、P420i、P420、P421、P721m、およびP822</alt_name_xlate>
+    <alt_name_xlate lang="ko">스마트 어레이 P220i, P222, P420i, P420, P421, P721m 및 P822</alt_name_xlate>
+    <alt_name_xlate lang="tw">Smart Array P220i、P222、P420i、P420、P421、P721m 及 P822</alt_name_xlate>
+  </alt_name>
+  <version value="8.32" revision="" type_of_change="1"/>
+  <manufacturer_name>
+    <manufacturer_name_xlate lang="cn">惠普企业</manufacturer_name_xlate>
+    <manufacturer_name_xlate lang="en">Hewlett Packard Enterprise</manufacturer_name_xlate>
+    <manufacturer_name_xlate lang="ja">Hewlett Packard Enterprise</manufacturer_name_xlate>
+    <manufacturer_name_xlate lang="ko">Hewlett Packard Enterprise</manufacturer_name_xlate>
+    <manufacturer_name_xlate lang="tw">Hewlett Packard Enterprise</manufacturer_name_xlate>
+  </manufacturer_name>
+  <languages langlist="en, ja, de, fr, it, es">
+    <languages_xlate lang="en">English (US), Japanese, German, French, Italian, Spanish</languages_xlate>
+    <languages_xlate lang="fr">Anglais, Japonais, Allemand, Français, Italien, Espagnol</languages_xlate>
+    <languages_xlate lang="de">Englisch, Japanisch, Deutsch, Französisch, Italienisch, Spanisch</languages_xlate>
+    <languages_xlate lang="it">Inglese, Giapponese, Tedesco, Francese, Italiano, Spagnolo</languages_xlate>
+    <languages_xlate lang="ja">英語（US）, 日本語, ドイツ語, フランス語, イタリア語, スペイン語</languages_xlate>
+    <languages_xlate lang="es">Inglés, Japonés, Alemán, Francés, Italiano, Español</languages_xlate>
+    <languages_xlate lang="ko">영어(미국), 일본어, 독일어, 프랑스어, 이탈리아어, 스페인어</languages_xlate>
+    <languages_xlate lang="cn">英语（美国）, 日语, 德语, 法语, 意大利语, 西班牙语</languages_xlate>
+    <languages_xlate lang="tw">美式英文, 日文, 德文, 法文, 義大利文, 西班牙文</languages_xlate>
+  </languages>
+  <release_date year="2017" month="10" day="16" hour="11" minute="53" second="40"/>
+  <description>
+    <description_xlate lang="cn">
+<![CDATA[该x64智能组件为以下存储控制器提供固件： 智能阵列 P220i、P222、P420i、P420、P421、P721m 和 P822]]>
+</description_xlate>
+    <description_xlate lang="de">
+<![CDATA[This x64 Smart Component provides firmware for the following storage controllers: Smart Array P220i, P222, P420i, P420, P421, P721m, and P822]]>
+</description_xlate>
+    <description_xlate lang="en">
+<![CDATA[This x64 Smart Component provides firmware for the following storage controllers: Smart Array P220i, P222, P420i, P420, P421, P721m, and P822]]>
+</description_xlate>
+    <description_xlate lang="es">
+<![CDATA[This x64 Smart Component provides firmware for the following storage controllers: Smart Array P220i, P222, P420i, P420, P421, P721m, and P822]]>
+</description_xlate>
+    <description_xlate lang="fr">
+<![CDATA[This x64 Smart Component provides firmware for the following storage controllers: Smart Array P220i, P222, P420i, P420, P421, P721m, and P822]]>
+</description_xlate>
+    <description_xlate lang="it">
+<![CDATA[This x64 Smart Component provides firmware for the following storage controllers: Smart Array P220i, P222, P420i, P420, P421, P721m, and P822]]>
+</description_xlate>
+    <description_xlate lang="ja">
+<![CDATA[このx64 Smartコンポーネントは、次のストレージコントローラー：SmartアレイP220i, P222, P420i, P420, P421, P721m, およびP822のファームウェアを提供します。]]>
+</description_xlate>
+    <description_xlate lang="ko">
+<![CDATA[이 x64 스마트 구성 요소는 다음과 같은 스토리지 컨트롤러용 펌웨어를 제공합니다. 스마트 어레이 P220i, P222, P420i, P420, P421, P721m 및 P822]]>
+</description_xlate>
+    <description_xlate lang="tw">
+<![CDATA[此 x64 智慧型元件提供適用於下列儲存控制器的韌體： Smart Array P220i、P222、P420i、P420、P421、P721m 及 P822]]>
+</description_xlate>
+  </description>
+  <prerequisite_notes/>
+  <installation_notes>
+    <installation_notes_xlate lang="cn">
+      <installation_notes_xlate_part>
+<![CDATA[<p><strong>To update firmware from Linux operating system on target server:</strong></p>
+
+<p><strong><em>Updating firmware with rpm installed:</em></strong></p>
+
+<ul>
+	<li>Install the firmware rpm using the command:&nbsp; <em>rpm -ivh &lt;rpm_filename&gt;.&nbsp; </em>This extracts the contents of the rpm&nbsp;to the &#39;/usr/lib/x86_64-linux-gnu&#39; location</li>
+	<li>The&nbsp;CP033363.scexe script is located in the &#39;scexe-compat&#39; folder. The actual name of the &#39;firmware-smartarray-46a4d957a7-*&#39; folder is based on the version of the&nbsp;rpm installed in the first step above</li>
+	<li>To install firmware, you can execute <strong>ONE</strong> of the following commands:&nbsp;</li>
+</ul>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # ./CP033363.scexe in the &#39;/usr/lib/x86_64-linux-gnu/scexe-compat&#39; location (OR)</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #&nbsp;<em>./setup</em> in the &#39;/usr/lib/x86_64-linux-gnu/firmware-smartarray-46a4d957a7-*&#39; location</p>
+
+<ul>
+	<li>The results of the firmware upgrade are saved to the Component.log file, located in the /var/cpq/ directory</li>
+	<li>To uninstall the rpm, run the command: <em>rpm -e &lt;rpm_package_name&gt;</em>, which is the rpm filename without the &#39;.rpm&#39; extension</li>
+</ul>
+
+<p><strong><em>Updating firmware without installing the rpm:</em></strong></p>
+
+<ul>
+	<li>Extract the contents of the rpm using the command: <em>rpm2cpio &lt;rpm_filename&gt;.rpm | cpio -id.&nbsp; </em>This extracts the contents of the rpm to &#39;usr&#39; folder in the current directory</li>
+	<li>Navigate to the&nbsp;&#39;usr/lib/x86_64-linux-gnu/firmware-smartarray-46a4d957a7-*&#39; location and run <em>./setup</em> to update the firmware. The actual name of the &#39;firmware-smartarray-46a4d957a7-*&#39; folder is based on the version of the rpm installed in the step above</li>
+	<li>The results of the firmware upgrade are saved to the Component.log file, located in the /var/cpq/ directory</li>
+</ul>
+
+<p><strong><em>Additional Information:</em></strong></p>
+
+<p>Installing the firmware rpm package (rpm -ivh) does not update the firmware.&nbsp;&nbsp;It merely extracts the rpm content to the local system. Updating the firmware on the local system requires following the&nbsp;above outlined steps</p>
+
+<p><strong>To use HP Smart Update Manager from the Service Pack for ProLiant:</strong><br />
+<br />
+<strong>Offline:</strong></p>
+
+<ul>
+	<li>Place the <a href="http://www.hp.com/go/spp"><u>Service Pack for ProLiant </u></a>on a USB key using the <a href="https://h20566.www2.hpe.com/hpsc/swd/public/readIndex?sp4ts.oid=1008862658&amp;lang=en&amp;cc=us"><u>USB Key Utility for Windows</u></a>.</li>
+	<li>Place the desired firmware to be updated in the directory, /SPP20xxxxx/packages on the USB key.</li>
+	<li>Boot from the newly created Service Pack for Proliant USB key.</li>
+	<li>Follow Smart Update Manager steps to complete firmware update.</li>
+</ul>
+
+<p><strong>Online:</strong></p>
+
+<ul>
+	<li>Login as root. (You must be root in order to apply the ROM update.)</li>
+	<li>Place the desired firmware to be updated in the directory, /SPP20xxxxx/packages</li>
+	<li>Run launch_sum.sh script which is found in the root of the ISO</li>
+	<li>Follow the instructions on the screen</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+]]>
+</installation_notes_xlate_part>
+    </installation_notes_xlate>
+    <installation_notes_xlate lang="de">
+      <installation_notes_xlate_part>
+<![CDATA[<p><strong>To update firmware from Linux operating system on target server:</strong></p>
+
+<p><strong><em>Updating firmware with rpm installed:</em></strong></p>
+
+<ul>
+	<li>Install the firmware rpm using the command:&nbsp; <em>rpm -ivh &lt;rpm_filename&gt;.&nbsp; </em>This extracts the contents of the rpm&nbsp;to the &#39;/usr/lib/x86_64-linux-gnu&#39; location</li>
+	<li>The&nbsp;CP033363.scexe script is located in the &#39;scexe-compat&#39; folder. The actual name of the &#39;firmware-smartarray-46a4d957a7-*&#39; folder is based on the version of the&nbsp;rpm installed in the first step above</li>
+	<li>To install firmware, you can execute <strong>ONE</strong> of the following commands:&nbsp;</li>
+</ul>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # ./CP033363.scexe in the &#39;/usr/lib/x86_64-linux-gnu/scexe-compat&#39; location (OR)</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #&nbsp;<em>./setup</em> in the &#39;/usr/lib/x86_64-linux-gnu/firmware-smartarray-46a4d957a7-*&#39; location</p>
+
+<ul>
+	<li>The results of the firmware upgrade are saved to the Component.log file, located in the /var/cpq/ directory</li>
+	<li>To uninstall the rpm, run the command: <em>rpm -e &lt;rpm_package_name&gt;</em>, which is the rpm filename without the &#39;.rpm&#39; extension</li>
+</ul>
+
+<p><strong><em>Updating firmware without installing the rpm:</em></strong></p>
+
+<ul>
+	<li>Extract the contents of the rpm using the command: <em>rpm2cpio &lt;rpm_filename&gt;.rpm | cpio -id.&nbsp; </em>This extracts the contents of the rpm to &#39;usr&#39; folder in the current directory</li>
+	<li>Navigate to the&nbsp;&#39;usr/lib/x86_64-linux-gnu/firmware-smartarray-46a4d957a7-*&#39; location and run <em>./setup</em> to update the firmware. The actual name of the &#39;firmware-smartarray-46a4d957a7-*&#39; folder is based on the version of the rpm installed in the step above</li>
+	<li>The results of the firmware upgrade are saved to the Component.log file, located in the /var/cpq/ directory</li>
+</ul>
+
+<p><strong><em>Additional Information:</em></strong></p>
+
+<p>Installing the firmware rpm package (rpm -ivh) does not update the firmware.&nbsp;&nbsp;It merely extracts the rpm content to the local system. Updating the firmware on the local system requires following the&nbsp;above outlined steps</p>
+
+<p><strong>To use HP Smart Update Manager from the Service Pack for ProLiant:</strong><br />
+<br />
+<strong>Offline:</strong></p>
+
+<ul>
+	<li>Place the <a href="http://www.hp.com/go/spp"><u>Service Pack for ProLiant </u></a>on a USB key using the <a href="https://h20566.www2.hpe.com/hpsc/swd/public/readIndex?sp4ts.oid=1008862658&amp;lang=en&amp;cc=us"><u>USB Key Utility for Windows</u></a>.</li>
+	<li>Place the desired firmware to be updated in the directory, /SPP20xxxxx/packages on the USB key.</li>
+	<li>Boot from the newly created Service Pack for Proliant USB key.</li>
+	<li>Follow Smart Update Manager steps to complete firmware update.</li>
+</ul>
+
+<p><strong>Online:</strong></p>
+
+<ul>
+	<li>Login as root. (You must be root in order to apply the ROM update.)</li>
+	<li>Place the desired firmware to be updated in the directory, /SPP20xxxxx/packages</li>
+	<li>Run launch_sum.sh script which is found in the root of the ISO</li>
+	<li>Follow the instructions on the screen</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+]]>
+</installation_notes_xlate_part>
+    </installation_notes_xlate>
+    <installation_notes_xlate lang="en">
+      <installation_notes_xlate_part>
+<![CDATA[<p><strong>To update firmware from Linux operating system on target server:</strong></p>
+
+<p><strong><em>Updating firmware with rpm installed:</em></strong></p>
+
+<ul>
+	<li>Install the firmware rpm using the command:&nbsp; <em>rpm -ivh &lt;rpm_filename&gt;.&nbsp; </em>This extracts the contents of the rpm&nbsp;to the &#39;/usr/lib/x86_64-linux-gnu&#39; location</li>
+	<li>The&nbsp;CP033363.scexe script is located in the &#39;scexe-compat&#39; folder. The actual name of the &#39;firmware-smartarray-46a4d957a7-*&#39; folder is based on the version of the&nbsp;rpm installed in the first step above</li>
+	<li>To install firmware, you can execute <strong>ONE</strong> of the following commands:&nbsp;</li>
+</ul>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # ./CP033363.scexe in the &#39;/usr/lib/x86_64-linux-gnu/scexe-compat&#39; location (OR)</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #&nbsp;<em>./setup</em> in the &#39;/usr/lib/x86_64-linux-gnu/firmware-smartarray-46a4d957a7-*&#39; location</p>
+
+<ul>
+	<li>The results of the firmware upgrade are saved to the Component.log file, located in the /var/cpq/ directory</li>
+	<li>To uninstall the rpm, run the command: <em>rpm -e &lt;rpm_package_name&gt;</em>, which is the rpm filename without the &#39;.rpm&#39; extension</li>
+</ul>
+
+<p><strong><em>Updating firmware without installing the rpm:</em></strong></p>
+
+<ul>
+	<li>Extract the contents of the rpm using the command: <em>rpm2cpio &lt;rpm_filename&gt;.rpm | cpio -id.&nbsp; </em>This extracts the contents of the rpm to &#39;usr&#39; folder in the current directory</li>
+	<li>Navigate to the&nbsp;&#39;usr/lib/x86_64-linux-gnu/firmware-smartarray-46a4d957a7-*&#39; location and run <em>./setup</em> to update the firmware. The actual name of the &#39;firmware-smartarray-46a4d957a7-*&#39; folder is based on the version of the rpm installed in the step above</li>
+	<li>The results of the firmware upgrade are saved to the Component.log file, located in the /var/cpq/ directory</li>
+</ul>
+
+<p><strong><em>Additional Information:</em></strong></p>
+
+<p>Installing the firmware rpm package (rpm -ivh) does not update the firmware.&nbsp;&nbsp;It merely extracts the rpm content to the local system. Updating the firmware on the local system requires following the&nbsp;above outlined steps</p>
+
+<p><strong>To use HP Smart Update Manager from the Service Pack for ProLiant:</strong><br />
+<br />
+<strong>Offline:</strong></p>
+
+<ul>
+	<li>Place the <a href="http://www.hp.com/go/spp"><u>Service Pack for ProLiant </u></a>on a USB key using the <a href="https://h20566.www2.hpe.com/hpsc/swd/public/readIndex?sp4ts.oid=1008862658&amp;lang=en&amp;cc=us"><u>USB Key Utility for Windows</u></a>.</li>
+	<li>Place the desired firmware to be updated in the directory, /SPP20xxxxx/packages on the USB key.</li>
+	<li>Boot from the newly created Service Pack for Proliant USB key.</li>
+	<li>Follow Smart Update Manager steps to complete firmware update.</li>
+</ul>
+
+<p><strong>Online:</strong></p>
+
+<ul>
+	<li>Login as root. (You must be root in order to apply the ROM update.)</li>
+	<li>Place the desired firmware to be updated in the directory, /SPP20xxxxx/packages</li>
+	<li>Run launch_sum.sh script which is found in the root of the ISO</li>
+	<li>Follow the instructions on the screen</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+]]>
+</installation_notes_xlate_part>
+    </installation_notes_xlate>
+    <installation_notes_xlate lang="es">
+      <installation_notes_xlate_part>
+<![CDATA[<p><strong>To update firmware from Linux operating system on target server:</strong></p>
+
+<p><strong><em>Updating firmware with rpm installed:</em></strong></p>
+
+<ul>
+	<li>Install the firmware rpm using the command:&nbsp; <em>rpm -ivh &lt;rpm_filename&gt;.&nbsp; </em>This extracts the contents of the rpm&nbsp;to the &#39;/usr/lib/x86_64-linux-gnu&#39; location</li>
+	<li>The&nbsp;CP033363.scexe script is located in the &#39;scexe-compat&#39; folder. The actual name of the &#39;firmware-smartarray-46a4d957a7-*&#39; folder is based on the version of the&nbsp;rpm installed in the first step above</li>
+	<li>To install firmware, you can execute <strong>ONE</strong> of the following commands:&nbsp;</li>
+</ul>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # ./CP033363.scexe in the &#39;/usr/lib/x86_64-linux-gnu/scexe-compat&#39; location (OR)</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #&nbsp;<em>./setup</em> in the &#39;/usr/lib/x86_64-linux-gnu/firmware-smartarray-46a4d957a7-*&#39; location</p>
+
+<ul>
+	<li>The results of the firmware upgrade are saved to the Component.log file, located in the /var/cpq/ directory</li>
+	<li>To uninstall the rpm, run the command: <em>rpm -e &lt;rpm_package_name&gt;</em>, which is the rpm filename without the &#39;.rpm&#39; extension</li>
+</ul>
+
+<p><strong><em>Updating firmware without installing the rpm:</em></strong></p>
+
+<ul>
+	<li>Extract the contents of the rpm using the command: <em>rpm2cpio &lt;rpm_filename&gt;.rpm | cpio -id.&nbsp; </em>This extracts the contents of the rpm to &#39;usr&#39; folder in the current directory</li>
+	<li>Navigate to the&nbsp;&#39;usr/lib/x86_64-linux-gnu/firmware-smartarray-46a4d957a7-*&#39; location and run <em>./setup</em> to update the firmware. The actual name of the &#39;firmware-smartarray-46a4d957a7-*&#39; folder is based on the version of the rpm installed in the step above</li>
+	<li>The results of the firmware upgrade are saved to the Component.log file, located in the /var/cpq/ directory</li>
+</ul>
+
+<p><strong><em>Additional Information:</em></strong></p>
+
+<p>Installing the firmware rpm package (rpm -ivh) does not update the firmware.&nbsp;&nbsp;It merely extracts the rpm content to the local system. Updating the firmware on the local system requires following the&nbsp;above outlined steps</p>
+
+<p><strong>To use HP Smart Update Manager from the Service Pack for ProLiant:</strong><br />
+<br />
+<strong>Offline:</strong></p>
+
+<ul>
+	<li>Place the <a href="http://www.hp.com/go/spp"><u>Service Pack for ProLiant </u></a>on a USB key using the <a href="https://h20566.www2.hpe.com/hpsc/swd/public/readIndex?sp4ts.oid=1008862658&amp;lang=en&amp;cc=us"><u>USB Key Utility for Windows</u></a>.</li>
+	<li>Place the desired firmware to be updated in the directory, /SPP20xxxxx/packages on the USB key.</li>
+	<li>Boot from the newly created Service Pack for Proliant USB key.</li>
+	<li>Follow Smart Update Manager steps to complete firmware update.</li>
+</ul>
+
+<p><strong>Online:</strong></p>
+
+<ul>
+	<li>Login as root. (You must be root in order to apply the ROM update.)</li>
+	<li>Place the desired firmware to be updated in the directory, /SPP20xxxxx/packages</li>
+	<li>Run launch_sum.sh script which is found in the root of the ISO</li>
+	<li>Follow the instructions on the screen</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+]]>
+</installation_notes_xlate_part>
+    </installation_notes_xlate>
+    <installation_notes_xlate lang="fr">
+      <installation_notes_xlate_part>
+<![CDATA[<p><strong>To update firmware from Linux operating system on target server:</strong></p>
+
+<p><strong><em>Updating firmware with rpm installed:</em></strong></p>
+
+<ul>
+	<li>Install the firmware rpm using the command:&nbsp; <em>rpm -ivh &lt;rpm_filename&gt;.&nbsp; </em>This extracts the contents of the rpm&nbsp;to the &#39;/usr/lib/x86_64-linux-gnu&#39; location</li>
+	<li>The&nbsp;CP033363.scexe script is located in the &#39;scexe-compat&#39; folder. The actual name of the &#39;firmware-smartarray-46a4d957a7-*&#39; folder is based on the version of the&nbsp;rpm installed in the first step above</li>
+	<li>To install firmware, you can execute <strong>ONE</strong> of the following commands:&nbsp;</li>
+</ul>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # ./CP033363.scexe in the &#39;/usr/lib/x86_64-linux-gnu/scexe-compat&#39; location (OR)</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #&nbsp;<em>./setup</em> in the &#39;/usr/lib/x86_64-linux-gnu/firmware-smartarray-46a4d957a7-*&#39; location</p>
+
+<ul>
+	<li>The results of the firmware upgrade are saved to the Component.log file, located in the /var/cpq/ directory</li>
+	<li>To uninstall the rpm, run the command: <em>rpm -e &lt;rpm_package_name&gt;</em>, which is the rpm filename without the &#39;.rpm&#39; extension</li>
+</ul>
+
+<p><strong><em>Updating firmware without installing the rpm:</em></strong></p>
+
+<ul>
+	<li>Extract the contents of the rpm using the command: <em>rpm2cpio &lt;rpm_filename&gt;.rpm | cpio -id.&nbsp; </em>This extracts the contents of the rpm to &#39;usr&#39; folder in the current directory</li>
+	<li>Navigate to the&nbsp;&#39;usr/lib/x86_64-linux-gnu/firmware-smartarray-46a4d957a7-*&#39; location and run <em>./setup</em> to update the firmware. The actual name of the &#39;firmware-smartarray-46a4d957a7-*&#39; folder is based on the version of the rpm installed in the step above</li>
+	<li>The results of the firmware upgrade are saved to the Component.log file, located in the /var/cpq/ directory</li>
+</ul>
+
+<p><strong><em>Additional Information:</em></strong></p>
+
+<p>Installing the firmware rpm package (rpm -ivh) does not update the firmware.&nbsp;&nbsp;It merely extracts the rpm content to the local system. Updating the firmware on the local system requires following the&nbsp;above outlined steps</p>
+
+<p><strong>To use HP Smart Update Manager from the Service Pack for ProLiant:</strong><br />
+<br />
+<strong>Offline:</strong></p>
+
+<ul>
+	<li>Place the <a href="http://www.hp.com/go/spp"><u>Service Pack for ProLiant </u></a>on a USB key using the <a href="https://h20566.www2.hpe.com/hpsc/swd/public/readIndex?sp4ts.oid=1008862658&amp;lang=en&amp;cc=us"><u>USB Key Utility for Windows</u></a>.</li>
+	<li>Place the desired firmware to be updated in the directory, /SPP20xxxxx/packages on the USB key.</li>
+	<li>Boot from the newly created Service Pack for Proliant USB key.</li>
+	<li>Follow Smart Update Manager steps to complete firmware update.</li>
+</ul>
+
+<p><strong>Online:</strong></p>
+
+<ul>
+	<li>Login as root. (You must be root in order to apply the ROM update.)</li>
+	<li>Place the desired firmware to be updated in the directory, /SPP20xxxxx/packages</li>
+	<li>Run launch_sum.sh script which is found in the root of the ISO</li>
+	<li>Follow the instructions on the screen</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+]]>
+</installation_notes_xlate_part>
+    </installation_notes_xlate>
+    <installation_notes_xlate lang="it">
+      <installation_notes_xlate_part>
+<![CDATA[<p><strong>To update firmware from Linux operating system on target server:</strong></p>
+
+<p><strong><em>Updating firmware with rpm installed:</em></strong></p>
+
+<ul>
+	<li>Install the firmware rpm using the command:&nbsp; <em>rpm -ivh &lt;rpm_filename&gt;.&nbsp; </em>This extracts the contents of the rpm&nbsp;to the &#39;/usr/lib/x86_64-linux-gnu&#39; location</li>
+	<li>The&nbsp;CP033363.scexe script is located in the &#39;scexe-compat&#39; folder. The actual name of the &#39;firmware-smartarray-46a4d957a7-*&#39; folder is based on the version of the&nbsp;rpm installed in the first step above</li>
+	<li>To install firmware, you can execute <strong>ONE</strong> of the following commands:&nbsp;</li>
+</ul>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # ./CP033363.scexe in the &#39;/usr/lib/x86_64-linux-gnu/scexe-compat&#39; location (OR)</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #&nbsp;<em>./setup</em> in the &#39;/usr/lib/x86_64-linux-gnu/firmware-smartarray-46a4d957a7-*&#39; location</p>
+
+<ul>
+	<li>The results of the firmware upgrade are saved to the Component.log file, located in the /var/cpq/ directory</li>
+	<li>To uninstall the rpm, run the command: <em>rpm -e &lt;rpm_package_name&gt;</em>, which is the rpm filename without the &#39;.rpm&#39; extension</li>
+</ul>
+
+<p><strong><em>Updating firmware without installing the rpm:</em></strong></p>
+
+<ul>
+	<li>Extract the contents of the rpm using the command: <em>rpm2cpio &lt;rpm_filename&gt;.rpm | cpio -id.&nbsp; </em>This extracts the contents of the rpm to &#39;usr&#39; folder in the current directory</li>
+	<li>Navigate to the&nbsp;&#39;usr/lib/x86_64-linux-gnu/firmware-smartarray-46a4d957a7-*&#39; location and run <em>./setup</em> to update the firmware. The actual name of the &#39;firmware-smartarray-46a4d957a7-*&#39; folder is based on the version of the rpm installed in the step above</li>
+	<li>The results of the firmware upgrade are saved to the Component.log file, located in the /var/cpq/ directory</li>
+</ul>
+
+<p><strong><em>Additional Information:</em></strong></p>
+
+<p>Installing the firmware rpm package (rpm -ivh) does not update the firmware.&nbsp;&nbsp;It merely extracts the rpm content to the local system. Updating the firmware on the local system requires following the&nbsp;above outlined steps</p>
+
+<p><strong>To use HP Smart Update Manager from the Service Pack for ProLiant:</strong><br />
+<br />
+<strong>Offline:</strong></p>
+
+<ul>
+	<li>Place the <a href="http://www.hp.com/go/spp"><u>Service Pack for ProLiant </u></a>on a USB key using the <a href="https://h20566.www2.hpe.com/hpsc/swd/public/readIndex?sp4ts.oid=1008862658&amp;lang=en&amp;cc=us"><u>USB Key Utility for Windows</u></a>.</li>
+	<li>Place the desired firmware to be updated in the directory, /SPP20xxxxx/packages on the USB key.</li>
+	<li>Boot from the newly created Service Pack for Proliant USB key.</li>
+	<li>Follow Smart Update Manager steps to complete firmware update.</li>
+</ul>
+
+<p><strong>Online:</strong></p>
+
+<ul>
+	<li>Login as root. (You must be root in order to apply the ROM update.)</li>
+	<li>Place the desired firmware to be updated in the directory, /SPP20xxxxx/packages</li>
+	<li>Run launch_sum.sh script which is found in the root of the ISO</li>
+	<li>Follow the instructions on the screen</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+]]>
+</installation_notes_xlate_part>
+    </installation_notes_xlate>
+    <installation_notes_xlate lang="ja">
+      <installation_notes_xlate_part>
+<![CDATA[<p><strong>To update firmware from Linux operating system on target server:</strong></p>
+
+<p><strong><em>Updating firmware with rpm installed:</em></strong></p>
+
+<ul>
+	<li>Install the firmware rpm using the command:&nbsp; <em>rpm -ivh &lt;rpm_filename&gt;.&nbsp; </em>This extracts the contents of the rpm&nbsp;to the &#39;/usr/lib/x86_64-linux-gnu&#39; location</li>
+	<li>The&nbsp;CP033363.scexe script is located in the &#39;scexe-compat&#39; folder. The actual name of the &#39;firmware-smartarray-46a4d957a7-*&#39; folder is based on the version of the&nbsp;rpm installed in the first step above</li>
+	<li>To install firmware, you can execute <strong>ONE</strong> of the following commands:&nbsp;</li>
+</ul>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # ./CP033363.scexe in the &#39;/usr/lib/x86_64-linux-gnu/scexe-compat&#39; location (OR)</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #&nbsp;<em>./setup</em> in the &#39;/usr/lib/x86_64-linux-gnu/firmware-smartarray-46a4d957a7-*&#39; location</p>
+
+<ul>
+	<li>The results of the firmware upgrade are saved to the Component.log file, located in the /var/cpq/ directory</li>
+	<li>To uninstall the rpm, run the command: <em>rpm -e &lt;rpm_package_name&gt;</em>, which is the rpm filename without the &#39;.rpm&#39; extension</li>
+</ul>
+
+<p><strong><em>Updating firmware without installing the rpm:</em></strong></p>
+
+<ul>
+	<li>Extract the contents of the rpm using the command: <em>rpm2cpio &lt;rpm_filename&gt;.rpm | cpio -id.&nbsp; </em>This extracts the contents of the rpm to &#39;usr&#39; folder in the current directory</li>
+	<li>Navigate to the&nbsp;&#39;usr/lib/x86_64-linux-gnu/firmware-smartarray-46a4d957a7-*&#39; location and run <em>./setup</em> to update the firmware. The actual name of the &#39;firmware-smartarray-46a4d957a7-*&#39; folder is based on the version of the rpm installed in the step above</li>
+	<li>The results of the firmware upgrade are saved to the Component.log file, located in the /var/cpq/ directory</li>
+</ul>
+
+<p><strong><em>Additional Information:</em></strong></p>
+
+<p>Installing the firmware rpm package (rpm -ivh) does not update the firmware.&nbsp;&nbsp;It merely extracts the rpm content to the local system. Updating the firmware on the local system requires following the&nbsp;above outlined steps</p>
+
+<p><strong>To use HP Smart Update Manager from the Service Pack for ProLiant:</strong><br />
+<br />
+<strong>Offline:</strong></p>
+
+<ul>
+	<li>Place the <a href="http://www.hp.com/go/spp"><u>Service Pack for ProLiant </u></a>on a USB key using the <a href="https://h20566.www2.hpe.com/hpsc/swd/public/readIndex?sp4ts.oid=1008862658&amp;lang=en&amp;cc=us"><u>USB Key Utility for Windows</u></a>.</li>
+	<li>Place the desired firmware to be updated in the directory, /SPP20xxxxx/packages on the USB key.</li>
+	<li>Boot from the newly created Service Pack for Proliant USB key.</li>
+	<li>Follow Smart Update Manager steps to complete firmware update.</li>
+</ul>
+
+<p><strong>Online:</strong></p>
+
+<ul>
+	<li>Login as root. (You must be root in order to apply the ROM update.)</li>
+	<li>Place the desired firmware to be updated in the directory, /SPP20xxxxx/packages</li>
+	<li>Run launch_sum.sh script which is found in the root of the ISO</li>
+	<li>Follow the instructions on the screen</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+]]>
+</installation_notes_xlate_part>
+    </installation_notes_xlate>
+    <installation_notes_xlate lang="ko">
+      <installation_notes_xlate_part>
+<![CDATA[<p><strong>To update firmware from Linux operating system on target server:</strong></p>
+
+<p><strong><em>Updating firmware with rpm installed:</em></strong></p>
+
+<ul>
+	<li>Install the firmware rpm using the command:&nbsp; <em>rpm -ivh &lt;rpm_filename&gt;.&nbsp; </em>This extracts the contents of the rpm&nbsp;to the &#39;/usr/lib/x86_64-linux-gnu&#39; location</li>
+	<li>The&nbsp;CP033363.scexe script is located in the &#39;scexe-compat&#39; folder. The actual name of the &#39;firmware-smartarray-46a4d957a7-*&#39; folder is based on the version of the&nbsp;rpm installed in the first step above</li>
+	<li>To install firmware, you can execute <strong>ONE</strong> of the following commands:&nbsp;</li>
+</ul>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # ./CP033363.scexe in the &#39;/usr/lib/x86_64-linux-gnu/scexe-compat&#39; location (OR)</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #&nbsp;<em>./setup</em> in the &#39;/usr/lib/x86_64-linux-gnu/firmware-smartarray-46a4d957a7-*&#39; location</p>
+
+<ul>
+	<li>The results of the firmware upgrade are saved to the Component.log file, located in the /var/cpq/ directory</li>
+	<li>To uninstall the rpm, run the command: <em>rpm -e &lt;rpm_package_name&gt;</em>, which is the rpm filename without the &#39;.rpm&#39; extension</li>
+</ul>
+
+<p><strong><em>Updating firmware without installing the rpm:</em></strong></p>
+
+<ul>
+	<li>Extract the contents of the rpm using the command: <em>rpm2cpio &lt;rpm_filename&gt;.rpm | cpio -id.&nbsp; </em>This extracts the contents of the rpm to &#39;usr&#39; folder in the current directory</li>
+	<li>Navigate to the&nbsp;&#39;usr/lib/x86_64-linux-gnu/firmware-smartarray-46a4d957a7-*&#39; location and run <em>./setup</em> to update the firmware. The actual name of the &#39;firmware-smartarray-46a4d957a7-*&#39; folder is based on the version of the rpm installed in the step above</li>
+	<li>The results of the firmware upgrade are saved to the Component.log file, located in the /var/cpq/ directory</li>
+</ul>
+
+<p><strong><em>Additional Information:</em></strong></p>
+
+<p>Installing the firmware rpm package (rpm -ivh) does not update the firmware.&nbsp;&nbsp;It merely extracts the rpm content to the local system. Updating the firmware on the local system requires following the&nbsp;above outlined steps</p>
+
+<p><strong>To use HP Smart Update Manager from the Service Pack for ProLiant:</strong><br />
+<br />
+<strong>Offline:</strong></p>
+
+<ul>
+	<li>Place the <a href="http://www.hp.com/go/spp"><u>Service Pack for ProLiant </u></a>on a USB key using the <a href="https://h20566.www2.hpe.com/hpsc/swd/public/readIndex?sp4ts.oid=1008862658&amp;lang=en&amp;cc=us"><u>USB Key Utility for Windows</u></a>.</li>
+	<li>Place the desired firmware to be updated in the directory, /SPP20xxxxx/packages on the USB key.</li>
+	<li>Boot from the newly created Service Pack for Proliant USB key.</li>
+	<li>Follow Smart Update Manager steps to complete firmware update.</li>
+</ul>
+
+<p><strong>Online:</strong></p>
+
+<ul>
+	<li>Login as root. (You must be root in order to apply the ROM update.)</li>
+	<li>Place the desired firmware to be updated in the directory, /SPP20xxxxx/packages</li>
+	<li>Run launch_sum.sh script which is found in the root of the ISO</li>
+	<li>Follow the instructions on the screen</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+]]>
+</installation_notes_xlate_part>
+    </installation_notes_xlate>
+    <installation_notes_xlate lang="tw">
+      <installation_notes_xlate_part>
+<![CDATA[<p><strong>To update firmware from Linux operating system on target server:</strong></p>
+
+<p><strong><em>Updating firmware with rpm installed:</em></strong></p>
+
+<ul>
+	<li>Install the firmware rpm using the command:&nbsp; <em>rpm -ivh &lt;rpm_filename&gt;.&nbsp; </em>This extracts the contents of the rpm&nbsp;to the &#39;/usr/lib/x86_64-linux-gnu&#39; location</li>
+	<li>The&nbsp;CP033363.scexe script is located in the &#39;scexe-compat&#39; folder. The actual name of the &#39;firmware-smartarray-46a4d957a7-*&#39; folder is based on the version of the&nbsp;rpm installed in the first step above</li>
+	<li>To install firmware, you can execute <strong>ONE</strong> of the following commands:&nbsp;</li>
+</ul>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # ./CP033363.scexe in the &#39;/usr/lib/x86_64-linux-gnu/scexe-compat&#39; location (OR)</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; #&nbsp;<em>./setup</em> in the &#39;/usr/lib/x86_64-linux-gnu/firmware-smartarray-46a4d957a7-*&#39; location</p>
+
+<ul>
+	<li>The results of the firmware upgrade are saved to the Component.log file, located in the /var/cpq/ directory</li>
+	<li>To uninstall the rpm, run the command: <em>rpm -e &lt;rpm_package_name&gt;</em>, which is the rpm filename without the &#39;.rpm&#39; extension</li>
+</ul>
+
+<p><strong><em>Updating firmware without installing the rpm:</em></strong></p>
+
+<ul>
+	<li>Extract the contents of the rpm using the command: <em>rpm2cpio &lt;rpm_filename&gt;.rpm | cpio -id.&nbsp; </em>This extracts the contents of the rpm to &#39;usr&#39; folder in the current directory</li>
+	<li>Navigate to the&nbsp;&#39;usr/lib/x86_64-linux-gnu/firmware-smartarray-46a4d957a7-*&#39; location and run <em>./setup</em> to update the firmware. The actual name of the &#39;firmware-smartarray-46a4d957a7-*&#39; folder is based on the version of the rpm installed in the step above</li>
+	<li>The results of the firmware upgrade are saved to the Component.log file, located in the /var/cpq/ directory</li>
+</ul>
+
+<p><strong><em>Additional Information:</em></strong></p>
+
+<p>Installing the firmware rpm package (rpm -ivh) does not update the firmware.&nbsp;&nbsp;It merely extracts the rpm content to the local system. Updating the firmware on the local system requires following the&nbsp;above outlined steps</p>
+
+<p><strong>To use HP Smart Update Manager from the Service Pack for ProLiant:</strong><br />
+<br />
+<strong>Offline:</strong></p>
+
+<ul>
+	<li>Place the <a href="http://www.hp.com/go/spp"><u>Service Pack for ProLiant </u></a>on a USB key using the <a href="https://h20566.www2.hpe.com/hpsc/swd/public/readIndex?sp4ts.oid=1008862658&amp;lang=en&amp;cc=us"><u>USB Key Utility for Windows</u></a>.</li>
+	<li>Place the desired firmware to be updated in the directory, /SPP20xxxxx/packages on the USB key.</li>
+	<li>Boot from the newly created Service Pack for Proliant USB key.</li>
+	<li>Follow Smart Update Manager steps to complete firmware update.</li>
+</ul>
+
+<p><strong>Online:</strong></p>
+
+<ul>
+	<li>Login as root. (You must be root in order to apply the ROM update.)</li>
+	<li>Place the desired firmware to be updated in the directory, /SPP20xxxxx/packages</li>
+	<li>Run launch_sum.sh script which is found in the root of the ISO</li>
+	<li>Follow the instructions on the screen</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+]]>
+</installation_notes_xlate_part>
+    </installation_notes_xlate>
+  </installation_notes>
+  <availability_notes/>
+  <documentation_notes>
+    <documentation_notes_xlate lang="cn">
+      <documentation_notes_xlate_part>
+<![CDATA[<p><strong>Deliverable Name:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; Supplemental Update / Online ROM Flash Component for Linux (x64) - Smart Array P220i, P222, P420i, P420, P421, P721m, and P822<br />
+&nbsp;</p>
+
+<p><strong>Release Version and/or Date:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; 8.32<br />
+<br />
+<strong>Last Recommended or Critical Version:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.00&nbsp;&nbsp;&nbsp;<br />
+<br />
+<strong>Previous Version of Firmware:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; 8.00<br />
+<br />
+<strong>Firmware Dependency:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; None</p>
+
+<p><strong>Enhancements/New Features:</strong></p>
+
+<ul>
+	<li>Improved accuracy of drive temperature reporting feature</li>
+</ul>
+
+<p><strong>Problems Fixed:</strong></p>
+
+<ul style="list-style-type: square;">
+	<li>
+	<p>System can potentially stop responding with no lockup code due to livelock condition where the RAID Stack thread is polling a queue for a completion to be returned by the base code firmware</p>
+	</li>
+</ul>
+
+<p><strong>Known Issues:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; None</p>
+]]>
+</documentation_notes_xlate_part>
+    </documentation_notes_xlate>
+    <documentation_notes_xlate lang="de">
+      <documentation_notes_xlate_part>
+<![CDATA[<p><strong>Deliverable Name:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; Supplemental Update / Online ROM Flash Component for Linux (x64) - Smart Array P220i, P222, P420i, P420, P421, P721m, and P822<br />
+&nbsp;</p>
+
+<p><strong>Release Version and/or Date:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; 8.32<br />
+<br />
+<strong>Last Recommended or Critical Version:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.00&nbsp;&nbsp;&nbsp;<br />
+<br />
+<strong>Previous Version of Firmware:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; 8.00<br />
+<br />
+<strong>Firmware Dependency:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; None</p>
+
+<p><strong>Enhancements/New Features:</strong></p>
+
+<ul>
+	<li>Improved accuracy of drive temperature reporting feature</li>
+</ul>
+
+<p><strong>Problems Fixed:</strong></p>
+
+<ul style="list-style-type: square;">
+	<li>
+	<p>System can potentially stop responding with no lockup code due to livelock condition where the RAID Stack thread is polling a queue for a completion to be returned by the base code firmware</p>
+	</li>
+</ul>
+
+<p><strong>Known Issues:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; None</p>
+]]>
+</documentation_notes_xlate_part>
+    </documentation_notes_xlate>
+    <documentation_notes_xlate lang="en">
+      <documentation_notes_xlate_part>
+<![CDATA[<p><strong>Deliverable Name:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; Supplemental Update / Online ROM Flash Component for Linux (x64) - Smart Array P220i, P222, P420i, P420, P421, P721m, and P822<br />
+&nbsp;</p>
+
+<p><strong>Release Version and/or Date:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; 8.32<br />
+<br />
+<strong>Last Recommended or Critical Version:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.00&nbsp;&nbsp;&nbsp;<br />
+<br />
+<strong>Previous Version of Firmware:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; 8.00<br />
+<br />
+<strong>Firmware Dependency:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; None</p>
+
+<p><strong>Enhancements/New Features:</strong></p>
+
+<ul>
+	<li>Improved accuracy of drive temperature reporting feature</li>
+</ul>
+
+<p><strong>Problems Fixed:</strong></p>
+
+<ul style="list-style-type: square;">
+	<li>
+	<p>System can potentially stop responding with no lockup code due to livelock condition where the RAID Stack thread is polling a queue for a completion to be returned by the base code firmware</p>
+	</li>
+</ul>
+
+<p><strong>Known Issues:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; None</p>
+]]>
+</documentation_notes_xlate_part>
+    </documentation_notes_xlate>
+    <documentation_notes_xlate lang="es">
+      <documentation_notes_xlate_part>
+<![CDATA[<p><strong>Deliverable Name:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; Supplemental Update / Online ROM Flash Component for Linux (x64) - Smart Array P220i, P222, P420i, P420, P421, P721m, and P822<br />
+&nbsp;</p>
+
+<p><strong>Release Version and/or Date:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; 8.32<br />
+<br />
+<strong>Last Recommended or Critical Version:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.00&nbsp;&nbsp;&nbsp;<br />
+<br />
+<strong>Previous Version of Firmware:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; 8.00<br />
+<br />
+<strong>Firmware Dependency:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; None</p>
+
+<p><strong>Enhancements/New Features:</strong></p>
+
+<ul>
+	<li>Improved accuracy of drive temperature reporting feature</li>
+</ul>
+
+<p><strong>Problems Fixed:</strong></p>
+
+<ul style="list-style-type: square;">
+	<li>
+	<p>System can potentially stop responding with no lockup code due to livelock condition where the RAID Stack thread is polling a queue for a completion to be returned by the base code firmware</p>
+	</li>
+</ul>
+
+<p><strong>Known Issues:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; None</p>
+]]>
+</documentation_notes_xlate_part>
+    </documentation_notes_xlate>
+    <documentation_notes_xlate lang="fr">
+      <documentation_notes_xlate_part>
+<![CDATA[<p><strong>Deliverable Name:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; Supplemental Update / Online ROM Flash Component for Linux (x64) - Smart Array P220i, P222, P420i, P420, P421, P721m, and P822<br />
+&nbsp;</p>
+
+<p><strong>Release Version and/or Date:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; 8.32<br />
+<br />
+<strong>Last Recommended or Critical Version:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.00&nbsp;&nbsp;&nbsp;<br />
+<br />
+<strong>Previous Version of Firmware:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; 8.00<br />
+<br />
+<strong>Firmware Dependency:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; None</p>
+
+<p><strong>Enhancements/New Features:</strong></p>
+
+<ul>
+	<li>Improved accuracy of drive temperature reporting feature</li>
+</ul>
+
+<p><strong>Problems Fixed:</strong></p>
+
+<ul style="list-style-type: square;">
+	<li>
+	<p>System can potentially stop responding with no lockup code due to livelock condition where the RAID Stack thread is polling a queue for a completion to be returned by the base code firmware</p>
+	</li>
+</ul>
+
+<p><strong>Known Issues:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; None</p>
+]]>
+</documentation_notes_xlate_part>
+    </documentation_notes_xlate>
+    <documentation_notes_xlate lang="it">
+      <documentation_notes_xlate_part>
+<![CDATA[<p><strong>Deliverable Name:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; Supplemental Update / Online ROM Flash Component for Linux (x64) - Smart Array P220i, P222, P420i, P420, P421, P721m, and P822<br />
+&nbsp;</p>
+
+<p><strong>Release Version and/or Date:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; 8.32<br />
+<br />
+<strong>Last Recommended or Critical Version:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.00&nbsp;&nbsp;&nbsp;<br />
+<br />
+<strong>Previous Version of Firmware:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; 8.00<br />
+<br />
+<strong>Firmware Dependency:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; None</p>
+
+<p><strong>Enhancements/New Features:</strong></p>
+
+<ul>
+	<li>Improved accuracy of drive temperature reporting feature</li>
+</ul>
+
+<p><strong>Problems Fixed:</strong></p>
+
+<ul style="list-style-type: square;">
+	<li>
+	<p>System can potentially stop responding with no lockup code due to livelock condition where the RAID Stack thread is polling a queue for a completion to be returned by the base code firmware</p>
+	</li>
+</ul>
+
+<p><strong>Known Issues:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; None</p>
+]]>
+</documentation_notes_xlate_part>
+    </documentation_notes_xlate>
+    <documentation_notes_xlate lang="ja">
+      <documentation_notes_xlate_part>
+<![CDATA[<p><strong>Deliverable Name:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; Supplemental Update / Online ROM Flash Component for Linux (x64) - Smart Array P220i, P222, P420i, P420, P421, P721m, and P822<br />
+&nbsp;</p>
+
+<p><strong>Release Version and/or Date:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; 8.32<br />
+<br />
+<strong>Last Recommended or Critical Version:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.00&nbsp;&nbsp;&nbsp;<br />
+<br />
+<strong>Previous Version of Firmware:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; 8.00<br />
+<br />
+<strong>Firmware Dependency:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; None</p>
+
+<p><strong>Enhancements/New Features:</strong></p>
+
+<ul>
+	<li>Improved accuracy of drive temperature reporting feature</li>
+</ul>
+
+<p><strong>Problems Fixed:</strong></p>
+
+<ul style="list-style-type: square;">
+	<li>
+	<p>System can potentially stop responding with no lockup code due to livelock condition where the RAID Stack thread is polling a queue for a completion to be returned by the base code firmware</p>
+	</li>
+</ul>
+
+<p><strong>Known Issues:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; None</p>
+]]>
+</documentation_notes_xlate_part>
+    </documentation_notes_xlate>
+    <documentation_notes_xlate lang="ko">
+      <documentation_notes_xlate_part>
+<![CDATA[<p><strong>Deliverable Name:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; Supplemental Update / Online ROM Flash Component for Linux (x64) - Smart Array P220i, P222, P420i, P420, P421, P721m, and P822<br />
+&nbsp;</p>
+
+<p><strong>Release Version and/or Date:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; 8.32<br />
+<br />
+<strong>Last Recommended or Critical Version:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.00&nbsp;&nbsp;&nbsp;<br />
+<br />
+<strong>Previous Version of Firmware:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; 8.00<br />
+<br />
+<strong>Firmware Dependency:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; None</p>
+
+<p><strong>Enhancements/New Features:</strong></p>
+
+<ul>
+	<li>Improved accuracy of drive temperature reporting feature</li>
+</ul>
+
+<p><strong>Problems Fixed:</strong></p>
+
+<ul style="list-style-type: square;">
+	<li>
+	<p>System can potentially stop responding with no lockup code due to livelock condition where the RAID Stack thread is polling a queue for a completion to be returned by the base code firmware</p>
+	</li>
+</ul>
+
+<p><strong>Known Issues:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; None</p>
+]]>
+</documentation_notes_xlate_part>
+    </documentation_notes_xlate>
+    <documentation_notes_xlate lang="tw">
+      <documentation_notes_xlate_part>
+<![CDATA[<p><strong>Deliverable Name:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; Supplemental Update / Online ROM Flash Component for Linux (x64) - Smart Array P220i, P222, P420i, P420, P421, P721m, and P822<br />
+&nbsp;</p>
+
+<p><strong>Release Version and/or Date:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; 8.32<br />
+<br />
+<strong>Last Recommended or Critical Version:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.00&nbsp;&nbsp;&nbsp;<br />
+<br />
+<strong>Previous Version of Firmware:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; 8.00<br />
+<br />
+<strong>Firmware Dependency:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; None</p>
+
+<p><strong>Enhancements/New Features:</strong></p>
+
+<ul>
+	<li>Improved accuracy of drive temperature reporting feature</li>
+</ul>
+
+<p><strong>Problems Fixed:</strong></p>
+
+<ul style="list-style-type: square;">
+	<li>
+	<p>System can potentially stop responding with no lockup code due to livelock condition where the RAID Stack thread is polling a queue for a completion to be returned by the base code firmware</p>
+	</li>
+</ul>
+
+<p><strong>Known Issues:</strong><br />
+&nbsp;&nbsp;&nbsp;&nbsp; None</p>
+]]>
+</documentation_notes_xlate_part>
+    </documentation_notes_xlate>
+  </documentation_notes>
+  <revision_history>
+    <revision>
+      <version value="8.32" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="cn">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>Improved accuracy of drive temperature reporting feature</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="de">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>Improved accuracy of drive temperature reporting feature</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>Improved accuracy of drive temperature reporting feature</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="es">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>Improved accuracy of drive temperature reporting feature</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="fr">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>Improved accuracy of drive temperature reporting feature</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="it">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>Improved accuracy of drive temperature reporting feature</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>ドライブ温度レポート機能の精度が改善されました。</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ko">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>Improved accuracy of drive temperature reporting feature</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="tw">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>Improved accuracy of drive temperature reporting feature</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="cn">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>System can potentially stop responding with no lockup code due to livelock condition where the RAID Stack thread is polling a queue for a completion to be returned by the base code firmware</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="de">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>System can potentially stop responding with no lockup code due to livelock condition where the RAID Stack thread is polling a queue for a completion to be returned by the base code firmware</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>System can potentially stop responding with no lockup code due to livelock condition where the RAID Stack thread is polling a queue for a completion to be returned by the base code firmware</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="es">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>System can potentially stop responding with no lockup code due to livelock condition where the RAID Stack thread is polling a queue for a completion to be returned by the base code firmware</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="fr">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>System can potentially stop responding with no lockup code due to livelock condition where the RAID Stack thread is polling a queue for a completion to be returned by the base code firmware</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="it">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>System can potentially stop responding with no lockup code due to livelock condition where the RAID Stack thread is polling a queue for a completion to be returned by the base code firmware</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>システムは、ベースコードファームウェアによって返される完了について、RAIDスタックスレッドがキューをポーリングしているライブロック状況のために、ロックアップコードを表示せずに応答を停止することがあります。</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ko">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>System can potentially stop responding with no lockup code due to livelock condition where the RAID Stack thread is polling a queue for a completion to be returned by the base code firmware</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="tw">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>System can potentially stop responding with no lockup code due to livelock condition where the RAID Stack thread is polling a queue for a completion to be returned by the base code firmware</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="8.00" revision="C" type_of_change="0"/>
+      <revision_enhancements_xlate lang="cn">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>Updated to support Service Pack for ProLiant version 2017.07.1</li>
+</ul>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>Note:</strong>&nbsp;If&nbsp;version 8.00 was previously installed, then it is not necessary to upgrade to version 8.00 (C).</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="de">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>Updated to support Service Pack for ProLiant version 2017.07.1</li>
+</ul>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>Note:</strong>&nbsp;If&nbsp;version 8.00 was previously installed, then it is not necessary to upgrade to version 8.00 (C).</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>Updated to support Service Pack for ProLiant version 2017.07.1</li>
+</ul>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>Note:</strong>&nbsp;If&nbsp;version 8.00 was previously installed, then it is not necessary to upgrade to version 8.00 (C).</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="es">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>Updated to support Service Pack for ProLiant version 2017.07.1</li>
+</ul>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>Note:</strong>&nbsp;If&nbsp;version 8.00 was previously installed, then it is not necessary to upgrade to version 8.00 (C).</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="fr">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>Updated to support Service Pack for ProLiant version 2017.07.1</li>
+</ul>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>Note:</strong>&nbsp;If&nbsp;version 8.00 was previously installed, then it is not necessary to upgrade to version 8.00 (C).</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="it">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>Updated to support Service Pack for ProLiant version 2017.07.1</li>
+</ul>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>Note:</strong>&nbsp;If&nbsp;version 8.00 was previously installed, then it is not necessary to upgrade to version 8.00 (C).</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>Service Pack for ProLiantバージョン2017.07.1をサポートするためにアップデートされました</li>
+</ul>
+
+<p>          <strong>注記：</strong>システムが以前にバージョン8.00にアップデートされている場合、8.00 (C)にアップデートする必要はありません。</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ko">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>Updated to support Service Pack for ProLiant version 2017.07.1</li>
+</ul>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>Note:</strong>&nbsp;If&nbsp;version 8.00 was previously installed, then it is not necessary to upgrade to version 8.00 (C).</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="tw">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>Updated to support Service Pack for ProLiant version 2017.07.1</li>
+</ul>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>Note:</strong>&nbsp;If&nbsp;version 8.00 was previously installed, then it is not necessary to upgrade to version 8.00 (C).</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+    </revision>
+    <revision>
+      <version value="8.00" revision="B" type_of_change="0"/>
+      <revision_enhancements_xlate lang="cn">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type:square">
+	<li>Updated to support Service Pack for ProLiant version 2017.07.0</li>
+</ul>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>Note:</strong>&nbsp;If&nbsp;version 8.00 was previously installed, then it is not necessary to upgrade to version 8.00 (B).</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="de">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type:square">
+	<li>Updated to support Service Pack for ProLiant version 2017.07.0</li>
+</ul>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>Note:</strong>&nbsp;If&nbsp;version 8.00 was previously installed, then it is not necessary to upgrade to version 8.00 (B).</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type:square">
+	<li>Updated to support Service Pack for ProLiant version 2017.07.0</li>
+</ul>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>Note:</strong>&nbsp;If&nbsp;version 8.00 was previously installed, then it is not necessary to upgrade to version 8.00 (B).</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="es">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type:square">
+	<li>Updated to support Service Pack for ProLiant version 2017.07.0</li>
+</ul>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>Note:</strong>&nbsp;If&nbsp;version 8.00 was previously installed, then it is not necessary to upgrade to version 8.00 (B).</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="fr">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type:square">
+	<li>Updated to support Service Pack for ProLiant version 2017.07.0</li>
+</ul>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>Note:</strong>&nbsp;If&nbsp;version 8.00 was previously installed, then it is not necessary to upgrade to version 8.00 (B).</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="it">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type:square">
+	<li>Updated to support Service Pack for ProLiant version 2017.07.0</li>
+</ul>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>Note:</strong>&nbsp;If&nbsp;version 8.00 was previously installed, then it is not necessary to upgrade to version 8.00 (B).</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type:square">
+	<li>Service Pack for ProLiantバージョン2017.07.0をサポートするためにアップデートされました</li>
+</ul>
+
+<p>          <strong>注:</strong> システムが以前にバージョ8.00にアップデートされている場合、8.00 (B)にアップデートする必要はありません。</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ko">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type:square">
+	<li>Updated to support Service Pack for ProLiant version 2017.07.0</li>
+</ul>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>Note:</strong>&nbsp;If&nbsp;version 8.00 was previously installed, then it is not necessary to upgrade to version 8.00 (B).</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="tw">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type:square">
+	<li>Updated to support Service Pack for ProLiant version 2017.07.0</li>
+</ul>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>Note:</strong>&nbsp;If&nbsp;version 8.00 was previously installed, then it is not necessary to upgrade to version 8.00 (B).</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+    </revision>
+    <revision>
+      <version value="8.00" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="cn">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>
+	<p>&nbsp;Increased performance of SATA drives by increasing command queue depth.</p>
+	</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="de">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>
+	<p>&nbsp;Increased performance of SATA drives by increasing command queue depth.</p>
+	</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>
+	<p>&nbsp;Increased performance of SATA drives by increasing command queue depth.</p>
+	</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="es">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>
+	<p>&nbsp;Increased performance of SATA drives by increasing command queue depth.</p>
+	</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="fr">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>
+	<p>&nbsp;Increased performance of SATA drives by increasing command queue depth.</p>
+	</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="it">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>
+	<p>&nbsp;Increased performance of SATA drives by increasing command queue depth.</p>
+	</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>
+	<p> コマンドキューの深度を増やすことにより、SATAドライブの性能が向上しました。</p>
+	</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ko">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>
+	<p>&nbsp;Increased performance of SATA drives by increasing command queue depth.</p>
+	</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="tw">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>
+	<p>&nbsp;Increased performance of SATA drives by increasing command queue depth.</p>
+	</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="cn">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul style="list-style-type:square">
+	<li>Drive temperatures for SATA drives might not be reported after hot-inserting the drive.</li>
+	<li>System might hang at POST following a reboot.</li>
+	<li>System fans might go to 100% if connected drives were spun down.</li>
+	<li>SATA SSD&rsquo;s were incorrectly marked as worn out.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="de">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul style="list-style-type:square">
+	<li>Drive temperatures for SATA drives might not be reported after hot-inserting the drive.</li>
+	<li>System might hang at POST following a reboot.</li>
+	<li>System fans might go to 100% if connected drives were spun down.</li>
+	<li>SATA SSD&rsquo;s were incorrectly marked as worn out.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul style="list-style-type:square">
+	<li>Drive temperatures for SATA drives might not be reported after hot-inserting the drive.</li>
+	<li>System might hang at POST following a reboot.</li>
+	<li>System fans might go to 100% if connected drives were spun down.</li>
+	<li>SATA SSD&rsquo;s were incorrectly marked as worn out.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="es">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul style="list-style-type:square">
+	<li>Drive temperatures for SATA drives might not be reported after hot-inserting the drive.</li>
+	<li>System might hang at POST following a reboot.</li>
+	<li>System fans might go to 100% if connected drives were spun down.</li>
+	<li>SATA SSD&rsquo;s were incorrectly marked as worn out.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="fr">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul style="list-style-type:square">
+	<li>Drive temperatures for SATA drives might not be reported after hot-inserting the drive.</li>
+	<li>System might hang at POST following a reboot.</li>
+	<li>System fans might go to 100% if connected drives were spun down.</li>
+	<li>SATA SSD&rsquo;s were incorrectly marked as worn out.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="it">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul style="list-style-type:square">
+	<li>Drive temperatures for SATA drives might not be reported after hot-inserting the drive.</li>
+	<li>System might hang at POST following a reboot.</li>
+	<li>System fans might go to 100% if connected drives were spun down.</li>
+	<li>SATA SSD&rsquo;s were incorrectly marked as worn out.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul style="list-style-type:square">
+	<li>SATAドライブのドライブ温度は、ドライブのホット挿入後、報告されない場合があります。</li>
+	<li>リブート後、POSTでシステムがハングする可能性がありました。</li>
+	<li>接続されたドライブがスピンダウンされた場合は、システムファンが100％に到達する可能性があります。</li>
+	<li>SATA SSDが摩耗しているものとして不正にマークされていましました。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ko">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul style="list-style-type:square">
+	<li>Drive temperatures for SATA drives might not be reported after hot-inserting the drive.</li>
+	<li>System might hang at POST following a reboot.</li>
+	<li>System fans might go to 100% if connected drives were spun down.</li>
+	<li>SATA SSD&rsquo;s were incorrectly marked as worn out.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="tw">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul style="list-style-type:square">
+	<li>Drive temperatures for SATA drives might not be reported after hot-inserting the drive.</li>
+	<li>System might hang at POST following a reboot.</li>
+	<li>System fans might go to 100% if connected drives were spun down.</li>
+	<li>SATA SSD&rsquo;s were incorrectly marked as worn out.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="7.54" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="cn">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>增加更多故障排除功能，尤其是 Bloomberg。</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="de">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>Added more troubleshooting capability, especially for Bloomberg.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>Added more troubleshooting capability, especially for Bloomberg.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="es">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>Added more troubleshooting capability, especially for Bloomberg.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="fr">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>Added more troubleshooting capability, especially for Bloomberg.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="it">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>Added more troubleshooting capability, especially for Bloomberg.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>特にBloomberg向けに、より多くのトラブルシューティングの機能が追加されました。</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ko">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>특히, 더 많은 문제 해결 기능(특히, Bloomberg에 대한 문제 해결 기능)이 추가되었습니다.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="tw">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+	<li>已新增更多疑難排解功能，尤其 Bloomberg 的疑難排解功能。</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+    </revision>
+    <revision>
+      <version value="7.50" revision="" type_of_change="1"/>
+      <revision_fixes_xlate lang="cn">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>Drive temperatures for SATA drives might not be reported after hot-inserting the drive.</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="de">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>Drive temperatures for SATA drives might not be reported after hot-inserting the drive.</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>Drive temperatures for SATA drives might not be reported after hot-inserting the drive.</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="es">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>Drive temperatures for SATA drives might not be reported after hot-inserting the drive.</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="fr">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>Drive temperatures for SATA drives might not be reported after hot-inserting the drive.</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="it">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>Drive temperatures for SATA drives might not be reported after hot-inserting the drive.</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>SATA ドライバーのドライブ温度は、ドライブのホットインサート後、報告されない場合があります。</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ko">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>드라이브 핫-넣은 후 SATA 드라이브에 대 한 드라이브 온도 보고 될 수 있습니다.</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="tw">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>針對 SATA 磁碟機的磁碟機溫度不可能報告後熱插入磁碟機。</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="7.04" revision="" type_of_change="1"/>
+      <revision_fixes_xlate lang="cn">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>
+	<p>禁用由控制器片上存储器的极少数可修正错误导致的控制器锁定 （锁定 0x13）。</p>
+	</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="de">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>
+	<p>Disable controller lockup (lockup 0x13) that was caused by rare correctable errors in the controller on-chip memory.</p>
+	</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>
+	<p>Disable controller lockup (lockup 0x13) that was caused by rare correctable errors in the controller on-chip memory.</p>
+	</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="es">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>
+	<p>Disable controller lockup (lockup 0x13) that was caused by rare correctable errors in the controller on-chip memory.</p>
+	</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="fr">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>
+	<p>Disable controller lockup (lockup 0x13) that was caused by rare correctable errors in the controller on-chip memory.</p>
+	</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="it">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>
+	<p>Disable controller lockup (lockup 0x13) that was caused by rare correctable errors in the controller on-chip memory.</p>
+	</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>
+	<p>コントローラーのオンチップメモリでまれに訂正可能なエラーによって引き起こされるコントローラーのロックアップ(lockup 0x13)を無効にします。</p>
+	</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ko">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>
+	<p>컨트롤러 온칩 메모리에서 발생하는 드물게 수정 가능한 오류로 인한 컨트롤러 잠김(잠김 0x13)을 비활성화합니다.</p>
+	</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="tw">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>
+	<p>停用起因於罕見的控制器晶片上記憶體的可修正錯誤的控制器鎖定 (鎖定 0x13)。</p>
+	</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="7.02" revision="B" type_of_change="1"/>
+      <revision_fixes_xlate lang="cn">
+        <revision_fixes_xlate_part>
+<![CDATA[<p><strong>7.02 版本修复的问题：</strong></p>
+
+<ul>
+	<li>配置为备用驱动器的物理驱动器可能比预期更快地指示预测故障。</li>
+	<li>运行期间控制器可能停止响应（POST锁定0x13）。</li>
+	<li>当启用驱动器写入缓存时，出现协议错误。</li>
+	<li>热插拔更换硬盘驱动器后，HP Smart Storage Administrator显示错误的硬盘固件版本和升级建议。</li>
+</ul>
+
+<p><strong>7.02 (B) 版本解决的问题：</strong></p>
+
+<ul>
+	<li>组件无法在配有两个或多个连接到 HPE 主机总线适配器 H22x 的外部驱动器机箱的系统中安装固件。将报告以下消息 -“设备在树中多次出现”。在只有一个连接到 HPE 主机总线适配器 H22x 的外部驱动器机箱的配置中不出现固件安装失败问题。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="de">
+        <revision_fixes_xlate_part>
+<![CDATA[<p><strong>Problems Fixed in 7.02:</strong></p>
+
+<ul>
+	<li>A physical drive configured as a spare drive might indicate predictive failure sooner than expected.</li>
+	<li>Controller might stop responding during run-time (POST Lockup 0x13).</li>
+	<li>When drive write-cache is enabled, protocol errors are observed.</li>
+	<li>After hot-plug replacement of a hard disk drive, incorrect hard disk drive firmware version and upgrade recommendation were displayed by HP Smart Storage Administrator.</li>
+</ul>
+
+<p><strong>Problems Fixed in 7.02 (B):</strong></p>
+
+<ul>
+	<li>Component would fail to install firmware in a system configured with two or more external drive enclosures attached to an HPE Host Bus Adapter H22x. The following message would be reported - &ldquo;Device appears more than once in tree&rdquo;. The firmware installation failure was not observed in configurations having only one external drive enclosure attached to an HPE Host Bus Adapter H22x.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p><strong>Problems Fixed in 7.02:</strong></p>
+
+<ul>
+	<li>A physical drive configured as a spare drive might indicate predictive failure sooner than expected.</li>
+	<li>Controller might stop responding during run-time (POST Lockup 0x13).</li>
+	<li>When drive write-cache is enabled, protocol errors are observed.</li>
+	<li>After hot-plug replacement of a hard disk drive, incorrect hard disk drive firmware version and upgrade recommendation were displayed by HP Smart Storage Administrator.</li>
+</ul>
+
+<p><strong>Problems Fixed in 7.02 (B):</strong></p>
+
+<ul>
+	<li>Component would fail to install firmware in a system configured with two or more external drive enclosures attached to an HPE Host Bus Adapter H22x. The following message would be reported - &ldquo;Device appears more than once in tree&rdquo;. The firmware installation failure was not observed in configurations having only one external drive enclosure attached to an HPE Host Bus Adapter H22x.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="es">
+        <revision_fixes_xlate_part>
+<![CDATA[<p><strong>Problems Fixed in 7.02:</strong></p>
+
+<ul>
+	<li>A physical drive configured as a spare drive might indicate predictive failure sooner than expected.</li>
+	<li>Controller might stop responding during run-time (POST Lockup 0x13).</li>
+	<li>When drive write-cache is enabled, protocol errors are observed.</li>
+	<li>After hot-plug replacement of a hard disk drive, incorrect hard disk drive firmware version and upgrade recommendation were displayed by HP Smart Storage Administrator.</li>
+</ul>
+
+<p><strong>Problems Fixed in 7.02 (B):</strong></p>
+
+<ul>
+	<li>Component would fail to install firmware in a system configured with two or more external drive enclosures attached to an HPE Host Bus Adapter H22x. The following message would be reported - &ldquo;Device appears more than once in tree&rdquo;. The firmware installation failure was not observed in configurations having only one external drive enclosure attached to an HPE Host Bus Adapter H22x.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="fr">
+        <revision_fixes_xlate_part>
+<![CDATA[<p><strong>Problems Fixed in 7.02:</strong></p>
+
+<ul>
+	<li>A physical drive configured as a spare drive might indicate predictive failure sooner than expected.</li>
+	<li>Controller might stop responding during run-time (POST Lockup 0x13).</li>
+	<li>When drive write-cache is enabled, protocol errors are observed.</li>
+	<li>After hot-plug replacement of a hard disk drive, incorrect hard disk drive firmware version and upgrade recommendation were displayed by HP Smart Storage Administrator.</li>
+</ul>
+
+<p><strong>Problems Fixed in 7.02 (B):</strong></p>
+
+<ul>
+	<li>Component would fail to install firmware in a system configured with two or more external drive enclosures attached to an HPE Host Bus Adapter H22x. The following message would be reported - &ldquo;Device appears more than once in tree&rdquo;. The firmware installation failure was not observed in configurations having only one external drive enclosure attached to an HPE Host Bus Adapter H22x.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="it">
+        <revision_fixes_xlate_part>
+<![CDATA[<p><strong>Problems Fixed in 7.02:</strong></p>
+
+<ul>
+	<li>A physical drive configured as a spare drive might indicate predictive failure sooner than expected.</li>
+	<li>Controller might stop responding during run-time (POST Lockup 0x13).</li>
+	<li>When drive write-cache is enabled, protocol errors are observed.</li>
+	<li>After hot-plug replacement of a hard disk drive, incorrect hard disk drive firmware version and upgrade recommendation were displayed by HP Smart Storage Administrator.</li>
+</ul>
+
+<p><strong>Problems Fixed in 7.02 (B):</strong></p>
+
+<ul>
+	<li>Component would fail to install firmware in a system configured with two or more external drive enclosures attached to an HPE Host Bus Adapter H22x. The following message would be reported - &ldquo;Device appears more than once in tree&rdquo;. The firmware installation failure was not observed in configurations having only one external drive enclosure attached to an HPE Host Bus Adapter H22x.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p><strong>バージョン7.02で修正された問題：</strong></p>
+
+<ul>
+	<li>スペアドライブとして構成された物理ドライブが、予想よりも早く障害予測を示すことがあります。</li>
+	<li>コントローラーが実行時に応答を停止することがあります(POST Lockup 0x13)。</li>
+	<li>ドライブの書き込みキャッシュが有効な場合、プロトコルエラーが観察されます。</li>
+	<li>ハードディスクドライブのホットプラグ交換後、 HP Smart Storage Administratorが誤ったハードディスクドライブのファームウェアバージョンおよびアップグレード推奨を表示していました。</li>
+</ul>
+
+<p><strong>バージョン7.02(B)で修正された問題：</strong></p>
+
+<ul>
+	<li>コンポーネントは、HPE ホストバスアダプター H22xへ接続されている2つ以上の外部ドライブエンクロージャーで構成されるシステムへファームウェアのインストールをすると失敗する場合があります。「ドライブがツリー内に数回表示されています」というメッセージが表示されます。ドライブファームウェアインストールの失敗は、HPEホストバスアダプター H22xへ接続されている外部ドライブエンクロージャーが一つしかない構成では見られませんでした。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ko">
+        <revision_fixes_xlate_part>
+<![CDATA[<p><strong>7.02에서 해결된 문제:</strong></p>
+
+<ul>
+	<li>예비 드라이브로 구성된 물리적 드라이브가 예상보다 빨리 예측 오류를 표시할 수 있습니다.</li>
+	<li>컨트롤러가 런타임 동안 응답을 중지할 수 있습니다(POST 잠김 0x13).</li>
+	<li>드라이브 쓰기-캐시가 활성화되어 있을 때 프로토콜 오류가 관찰됩니다.</li>
+	<li>하드 디스크 드라이브의 핫 플러그 교체 후 HP 스마트 스토리지 관리자에서 하드 디스크 드라이브 펌웨어 버전 및 업그레이드 권장 사항을 잘못 표시합니다.</li>
+</ul>
+
+<p><strong>7.02(B)에서 해결된 문제:</strong></p>
+
+<ul>
+	<li>구성 요소가 HPE 호스트 버스 어댑터 H22x에 연결된 외장 드라이브 인클로저 두 개 이상으로 구성된 시스템에서 펌웨어 설치에 실패합니다. "장치가 트리에 두 번 이상 나타납니다"라는 메시지가 보고될 수 있습니다. HP 호스트 버스 어댑터 H22x에 연결된 외장 드라이브 인클로저가 한 개 뿐인 구성에서는 펌웨어 설치 실패가 관찰되지 않았습니다.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="tw">
+        <revision_fixes_xlate_part>
+<![CDATA[<p><strong>7.02 版中修正的問題：</strong></p>
+
+<ul>
+	<li>設定為備用磁碟機的實體磁碟機可能會比預期更快指示預測故障。</li>
+	<li>執行時期期間控制器可能停止回應 (POST 鎖定 0x13)。</li>
+	<li>啟用磁碟機寫入快取時，會觀察到通訊協定錯誤。</li>
+	<li>熱插拔更換硬碟機後，HP Smart Storage Administrator (HP 智慧型儲存管理員) 會顯示不正確的硬碟機韌體版本與升級建議。</li>
+</ul>
+
+<p><strong>7.02(B) 版中修正的問題：</strong></p>
+
+<ul>
+	<li>元件在設定使用連接至 HPE 主機匯流排配接卡 H22x 的兩個或多個外接磁碟機機櫃的系統中安裝韌體失敗。會報告下列訊息 -「Device appears more than once in tree」(裝置在樹狀結構中出現一次以上)。在只有一部外接磁碟機機櫃連接至 HPE 主機匯流排配接卡 H22x 的組態中，不出現磁碟機韌體安裝失敗。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="7.02" revision="" type_of_change="1"/>
+      <revision_fixes_xlate lang="cn">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>配置为备用驱动器的物理驱动器可能比预期更快地指示预测故障。</li>
+	<li>运行期间控制器可能停止响应（POST锁定0x13）。</li>
+	<li>当启用驱动器写入缓存时，出现协议错误。</li>
+	<li>热插拔更换硬盘驱动器后，HP Smart Storage Administrator显示错误的硬盘固件版本和升级建议。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="de">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>A physical drive configured as a spare drive might indicate predictive failure sooner than expected.</li>
+	<li>Controller might stop responding during run-time (POST Lockup 0x13).</li>
+	<li>When drive write-cache is enabled, protocol errors are observed.</li>
+	<li>After hot-plug replacement of a hard disk drive, incorrect hard disk drive firmware version and upgrade recommendation were displayed by HP Smart Storage Administrator.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>A physical drive configured as a spare drive might indicate predictive failure sooner than expected.</li>
+	<li>Controller might stop responding during run-time (POST Lockup 0x13).</li>
+	<li>When drive write-cache is enabled, protocol errors are observed.</li>
+	<li>After hot-plug replacement of a hard disk drive, incorrect hard disk drive firmware version and upgrade recommendation were displayed by HP Smart Storage Administrator.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="es">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>A physical drive configured as a spare drive might indicate predictive failure sooner than expected.</li>
+	<li>Controller might stop responding during run-time (POST Lockup 0x13).</li>
+	<li>When drive write-cache is enabled, protocol errors are observed.</li>
+	<li>After hot-plug replacement of a hard disk drive, incorrect hard disk drive firmware version and upgrade recommendation were displayed by HP Smart Storage Administrator.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="fr">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>A physical drive configured as a spare drive might indicate predictive failure sooner than expected.</li>
+	<li>Controller might stop responding during run-time (POST Lockup 0x13).</li>
+	<li>When drive write-cache is enabled, protocol errors are observed.</li>
+	<li>After hot-plug replacement of a hard disk drive, incorrect hard disk drive firmware version and upgrade recommendation were displayed by HP Smart Storage Administrator.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="it">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>A physical drive configured as a spare drive might indicate predictive failure sooner than expected.</li>
+	<li>Controller might stop responding during run-time (POST Lockup 0x13).</li>
+	<li>When drive write-cache is enabled, protocol errors are observed.</li>
+	<li>After hot-plug replacement of a hard disk drive, incorrect hard disk drive firmware version and upgrade recommendation were displayed by HP Smart Storage Administrator.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>スペアドライブとして構成された物理ドライブが、予想よりも早く障害予測を示すことがあります。</li>
+	<li>コントローラーが実行時に応答を停止することがあります(POST Lockup 0x13)。</li>
+	<li>ドライブの書き込みキャッシュが有効な場合、プロトコルエラーが観察されます。</li>
+	<li>ハードディスクドライブのホットプラグ交換後、 HP Smart Storage Administratorが誤ったハードディスクドライブのファームウェアバージョンおよびアップグレード推奨を表示していました。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ko">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>예비 드라이브로 구성된 물리적 드라이브가 예상보다 빨리 예측 오류를 표시할 수 있습니다.</li>
+	<li>컨트롤러가 런타임 동안 응답을 중지할 수 있습니다(POST 잠김 0x13).</li>
+	<li>드라이브 쓰기-캐시가 활성화되어 있을 때 프로토콜 오류가 관찰됩니다.</li>
+	<li>하드 디스크 드라이브의 핫 플러그 교체 후 HP 스마트 스토리지 관리자에서 하드 디스크 드라이브 펌웨어 버전 및 업그레이드 권장 사항을 잘못 표시합니다.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="tw">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>設定為備用磁碟機的實體磁碟機可能會比預期更快指示預測故障。</li>
+	<li>執行時期期間控制器可能停止回應 (POST 鎖定 0x13)。</li>
+	<li>啟用磁碟機寫入快取時，會觀察到通訊協定錯誤。</li>
+	<li>熱插拔更換硬碟機後，HP Smart Storage Administrator (HP 智慧型儲存管理員) 會顯示不正確的硬碟機韌體版本與升級建議。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="6.70" revision="" type_of_change="1"/>
+      <revision_fixes_xlate lang="cn">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>已解决协议错误</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="de">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>Protocol error is resolved</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>Protocol error is resolved</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="es">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>Protocol error is resolved</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="fr">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>Protocol error is resolved</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="it">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>Protocol error is resolved</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>プロトコルエラーが解決されます</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ko">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>프로토콜 오류가 해결돔</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="tw">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>已解決通訊協定錯誤</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="6.68" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="cn">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>提高了磁带机使用可变块大小时的性能。</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="de">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>Increased performance for tape drives when using variable block sizes.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>Increased performance for tape drives when using variable block sizes.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="es">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>Increased performance for tape drives when using variable block sizes.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="fr">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>Increased performance for tape drives when using variable block sizes.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="it">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>Increased performance for tape drives when using variable block sizes.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>可変ブロックサイズを使用するときのテープドライブのパフォーマンスを向上しました。</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ko">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>가변 블록 크기를 사용하는 경우 테이프 드라이브에 대한 성능을 높였습니다.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="tw">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>使用可變區塊大小時可提高磁帶機效能。</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="cn">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>
+	<p>如果因更换或断电数天（比如7天）而造成Super-cap未充满电时，带有启用了启动卷HP SmartCache的HP Smart Array Px3x控制器可能在启动系统时遇到文件损坏。非启动卷上出现文件损坏的可能性小于启动卷。更多详情，请参阅客户顾问文档<a href="http://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-c04719000" style="color: blue; text-decoration: underline;">#c04719000</a></p>
+	</li>
+	<li>
+	<p>启用驱动器写入缓存时，I/O可能停止。   </p>
+	</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="de">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>
+	<p>HP Smart Array Px3x controller with HP SmartCache enabled on boot volume could potentially encounter file corruption when booting the system if the Super-cap is not fully charged due to being replaced or being in a power down condition for several days (Example 7 days). File corruption is less likely to occur on non-boot volumes than on boot volumes. For additional information please refer to the customer advisory # <a href="http://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-c04719000" style="color: blue; text-decoration: underline;">c04719000</a></p>
+	</li>
+	<li>
+	<p>I/O may halt when the drive write cache is enabled.&nbsp;&nbsp;&nbsp;</p>
+	</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>
+	<p>HP Smart Array Px3x controller with HP SmartCache enabled on boot volume could potentially encounter file corruption when booting the system if the Super-cap is not fully charged due to being replaced or being in a power down condition for several days (Example 7 days). File corruption is less likely to occur on non-boot volumes than on boot volumes. For additional information please refer to the customer advisory # <a href="http://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-c04719000" style="color: blue; text-decoration: underline;">c04719000</a></p>
+	</li>
+	<li>
+	<p>I/O may halt when the drive write cache is enabled.&nbsp;&nbsp;&nbsp;</p>
+	</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="es">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>
+	<p>HP Smart Array Px3x controller with HP SmartCache enabled on boot volume could potentially encounter file corruption when booting the system if the Super-cap is not fully charged due to being replaced or being in a power down condition for several days (Example 7 days). File corruption is less likely to occur on non-boot volumes than on boot volumes. For additional information please refer to the customer advisory # <a href="http://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-c04719000" style="color: blue; text-decoration: underline;">c04719000</a></p>
+	</li>
+	<li>
+	<p>I/O may halt when the drive write cache is enabled.&nbsp;&nbsp;&nbsp;</p>
+	</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="fr">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>
+	<p>HP Smart Array Px3x controller with HP SmartCache enabled on boot volume could potentially encounter file corruption when booting the system if the Super-cap is not fully charged due to being replaced or being in a power down condition for several days (Example 7 days). File corruption is less likely to occur on non-boot volumes than on boot volumes. For additional information please refer to the customer advisory # <a href="http://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-c04719000" style="color: blue; text-decoration: underline;">c04719000</a></p>
+	</li>
+	<li>
+	<p>I/O may halt when the drive write cache is enabled.&nbsp;&nbsp;&nbsp;</p>
+	</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="it">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>
+	<p>HP Smart Array Px3x controller with HP SmartCache enabled on boot volume could potentially encounter file corruption when booting the system if the Super-cap is not fully charged due to being replaced or being in a power down condition for several days (Example 7 days). File corruption is less likely to occur on non-boot volumes than on boot volumes. For additional information please refer to the customer advisory # <a href="http://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-c04719000" style="color: blue; text-decoration: underline;">c04719000</a></p>
+	</li>
+	<li>
+	<p>I/O may halt when the drive write cache is enabled.&nbsp;&nbsp;&nbsp;</p>
+	</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>
+	<p>取り替えられるまたは数日間(例えば7日)電源がダウンした状態であったために、Super-capが完全にチャージされていない場合にシステムをブートするとき、ブートボリューム上で有効にされたHP Smartキャッシュを持つHP Smartアレイ Px3xコントローラーは潜在的にファイル破損が起こることがありました。 ファイル破損は、ブートボリューム上より非ブートボリューム上で発生しにくいです。 詳細についてはカスタマーアドバイザリ# <a href="http://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-c04719000" style="color: blue; text-decoration: underline;">c04719000</a>を参照してください</p>
+	</li>
+	<li>
+	<p>ドライブの書き込みキャッシュが有効な場合、I/Oが停止することがあります。</p>
+	</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ko">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>
+	<p>교체로 인해 또는 몇 일 동안(예: 7일) 전원이 꺼진 상태로 있어 슈퍼 커패시터가 완전히 충전되지 않은 경우 시스템을 부팅하면 부트 볼륨에 HP SmartCache가 사용하도록 설정되어 있는 HP Smart Array Px3x 컨트롤러에서 파일 손상이 잠재적으로 발생할 수 있습니다. 부트 볼륨에서보다 부트 볼륨이 아닌 볼륨에서 파일 손상 발생 가능성이 낮아졌습니다. 자세한 내용은 고객 권고 # <a href="http://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-c04719000" style="color: blue; text-decoration: underline;">c04719000</a>을 참조하십시오.</p>
+	</li>
+	<li>
+	<p>드라이브 쓰기 캐시가 활성화되어 있는 경우 I/O가 중단될 수 있습니다.   </p>
+	</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="tw">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul style="list-style-type: square;">
+	<li>
+	<p>若超級電容器由於正在更換或處於關閉電源數天 (例如 7 天) 情況下而未充滿電，系統開機時，在開機磁碟區啟用 HP SmartCache 的 HP Smart Array Px3x 控制器可能會遭遇檔案損毀。與開機磁碟區相比，非開機磁碟區上發生檔案損毀的可能性較低。如需詳細資料，請參閱客戶諮詢 # <a href="http://h20564.www2.hpe.com/hpsc/doc/public/display?docId=emr_na-c04719000" style="color: blue; text-decoration: underline;">c04719000</a></p>
+	</li>
+	<li>
+	<p>啟用磁碟機寫入快取時，/O I可能會中止。   </p>
+	</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="6.64" revision="" type_of_change="1"/>
+      <revision_fixes_xlate lang="cn">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>间歇中止到SATA驱动器的IO请求，导致LUN（逻辑单元号）重置。</li>
+	<li>使用带有Px2x控制器的SATA驱动器时，由于控制器锁定（加电自检锁定0xAB），服务器可能在一段时间后停止响应或关闭。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="de">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>An intermittent aborted IO request with attached SATA drives resulted in a LUN (Logical Unit Number) reset.</li>
+	<li>When using SATA drives with a Px2x controller, the server may stop responding or shut down after an extended period of time due to a controller lockup (POST Lockup 0xAB).</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>An intermittent aborted IO request with attached SATA drives resulted in a LUN (Logical Unit Number) reset.</li>
+	<li>When using SATA drives with a Px2x controller, the server may stop responding or shut down after an extended period of time due to a controller lockup (POST Lockup 0xAB).</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="es">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>An intermittent aborted IO request with attached SATA drives resulted in a LUN (Logical Unit Number) reset.</li>
+	<li>When using SATA drives with a Px2x controller, the server may stop responding or shut down after an extended period of time due to a controller lockup (POST Lockup 0xAB).</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="fr">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>An intermittent aborted IO request with attached SATA drives resulted in a LUN (Logical Unit Number) reset.</li>
+	<li>When using SATA drives with a Px2x controller, the server may stop responding or shut down after an extended period of time due to a controller lockup (POST Lockup 0xAB).</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="it">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>An intermittent aborted IO request with attached SATA drives resulted in a LUN (Logical Unit Number) reset.</li>
+	<li>When using SATA drives with a Px2x controller, the server may stop responding or shut down after an extended period of time due to a controller lockup (POST Lockup 0xAB).</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>接続されたSATAドライブによる断続的な中断されたIO要求が、LUN (Logical Unit Number) リセットを起こします。</li>
+	<li>Px2xコントローラーでSATAドライブを使う場合、サーバーが応答を停止し、コントローラーロックアップ（POST Lockup 0xAB）のために長期間の後、シャットダウンすることがあります。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ko">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>연결된 SATA 드라이브에서 간헐적으로 중단되는 IO 요청 때문에 LUN(Logical Unit Number) 재설정이 발생합니다.</li>
+	<li>SATA 드라이브를 Px2x 컨트롤러와 함께 사용할 때 컨트롤러 잠김(POST 잠김 0xAB) 때문에 늘어난 시간 이후에 서버가 응답하지 않거나 작동을 멈출 수 있습니다.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="tw">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>間歇性中止連接的 SATA 磁碟機的 IO 請求導致 LUN (邏輯單元編號) 重設。</li>
+	<li>當使用含 Px2x 控制器的 SATA 磁碟機時，在歸因於控制器鎖定 (POST 鎖定 0xAB) 而延長一段時間後，伺服器可能停止回應或關機。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="6.34" revision="" type_of_change="2"/>
+      <revision_enhancements_xlate lang="cn">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p><strong>增强功能/新功能：</strong></p>
+
+<ul>
+	<li>改进了当硬盘生成大量可恢复错误时的错误处理能力。</li>
+	<li>增加了对非热插拔硬盘驱动器的支持。</li>
+	<li>增加了对HP ProLiant Gen9服务器的支持：
+	<ul>
+		<li>HP ProLiant BL460c Gen9 服务器</li>
+		<li>HP ProLiant BL660c Gen9 服务器</li>
+	</ul>
+	</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="de">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p><strong>Enhancements/New Features:</strong></p>
+
+<ul>
+	<li>Improved error handling when hard disk drives generate a large number of recoverable errors.</li>
+	<li>Added support for non-hotplug disk drives.</li>
+	<li>Added support for HP ProLiant Gen9 servers:
+	<ul>
+		<li>HP ProLiant BL460c Gen9 Server</li>
+		<li>HP ProLiant BL660c Gen9 Server</li>
+	</ul>
+	</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p><strong>Enhancements/New Features:</strong></p>
+
+<ul>
+	<li>Improved error handling when hard disk drives generate a large number of recoverable errors.</li>
+	<li>Added support for non-hotplug disk drives.</li>
+	<li>Added support for HP ProLiant Gen9 servers:
+	<ul>
+		<li>HP ProLiant BL460c Gen9 Server</li>
+		<li>HP ProLiant BL660c Gen9 Server</li>
+	</ul>
+	</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="es">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p><strong>Enhancements/New Features:</strong></p>
+
+<ul>
+	<li>Improved error handling when hard disk drives generate a large number of recoverable errors.</li>
+	<li>Added support for non-hotplug disk drives.</li>
+	<li>Added support for HP ProLiant Gen9 servers:
+	<ul>
+		<li>HP ProLiant BL460c Gen9 Server</li>
+		<li>HP ProLiant BL660c Gen9 Server</li>
+	</ul>
+	</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="fr">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p><strong>Enhancements/New Features:</strong></p>
+
+<ul>
+	<li>Improved error handling when hard disk drives generate a large number of recoverable errors.</li>
+	<li>Added support for non-hotplug disk drives.</li>
+	<li>Added support for HP ProLiant Gen9 servers:
+	<ul>
+		<li>HP ProLiant BL460c Gen9 Server</li>
+		<li>HP ProLiant BL660c Gen9 Server</li>
+	</ul>
+	</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="it">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p><strong>Enhancements/New Features:</strong></p>
+
+<ul>
+	<li>Improved error handling when hard disk drives generate a large number of recoverable errors.</li>
+	<li>Added support for non-hotplug disk drives.</li>
+	<li>Added support for HP ProLiant Gen9 servers:
+	<ul>
+		<li>HP ProLiant BL460c Gen9 Server</li>
+		<li>HP ProLiant BL660c Gen9 Server</li>
+	</ul>
+	</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p><strong>改善点/新しい機能：</strong></p>
+
+<ul>
+	<li>ハードディスクドライブが多数の回復可能なエラーを生成する時のエラー処理を改善しました。</li>
+	<li>非ホットプラグディスクドライブのサポートを追加しました。</li>
+	<li>HP ProLiant Gen9サーバーのサポートを追加しました。
+	<ul>
+		<li>HP ProLiant BL460c Gen9サーバー</li>
+		<li>HP ProLiant BL660c Gen9サーバー</li>
+	</ul>
+	</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ko">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p><strong>향상된 기능/새로운 기능:</strong></p>
+
+<ul>
+	<li>하드 디스크 드라이브가 복구 가능한 오류를 대량 생성하는 경우 오류 처리를 개선했습니다.</li>
+	<li>핫 플러그 이외의 디스크 드라이브에 대한 지원을 추가했습니다.</li>
+	<li>HP ProLiant Gen9 서버에 대해 다음과 같은 지원을 추가했습니다.
+	<ul>
+		<li>HP ProLiant BL460c Gen9 서버</li>
+		<li>HP ProLiant BL660c Gen9 서버</li>
+	</ul>
+	</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="tw">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p><strong>增強或新增功能：</strong></p>
+
+<ul>
+	<li>已改善硬碟機產生大量可復原錯誤時的錯誤處理。</li>
+	<li>已新增對非熱插拔磁碟機的支援。</li>
+	<li>已新增對 HP ProLiant Gen9 伺服器的支援：
+	<ul>
+		<li>HP ProLiant BL460c Gen9 伺服器</li>
+		<li>HP ProLiant BL660c Gen9 伺服器</li>
+	</ul>
+	</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="cn">
+        <revision_fixes_xlate_part>
+<![CDATA[<p><strong>已解决的问题：</strong></p>
+
+<ul>
+	<li>所有使用2.2 TB或更大的卷配置GPT分区的UEFI系统的严重问题。更多详情，请参阅客户顾问文档<a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04602001">#c04602001</a></li>
+	<li>当一控制器设置为RAID6模式，且系统硬盘驱动器产生大量可恢复错误时，控制器可能进入降级模式并停止运行。在随后重启的加电自检（POST）和在集成管理日志（Integrated Management Log，即IML）中，将显示0x0E错误消息</li>
+	<li>当设置为RAID 6模式时，控制器将向HP智能存储管理器（HP Smart Storage Administrator，即HP SSA）报告0xE0错误，并停止运行</li>
+	<li>驱动器安装在HP ProLiant BL465 Gen8服务器的托架1时，SSD SATA 6G驱动器间歇性发生故障</li>
+	<li>不能修复的ECC错误导致控制器停止响应（锁定0x13）。该版智能阵列固件正确计算要求的最大控制器内存带宽，以承受当前逻辑驱动器配置的流写入操作，并减少不需要最大控制器内存带宽配置下的高速缓存内存速度。当以较低内存数量运行时，消耗较少的功耗，因而性能降级可以忽略。更多详情，请参阅客户顾问文档<a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983">c03755983</a></li>
+	<li>与HP ProLiant BL460c Gen9刀片式服务器一起配置时，无法识别HP D2220sb刀片式服务器。更多详情，请参阅客户顾问文档<a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04602866">#c04602866</a></li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="de">
+        <revision_fixes_xlate_part>
+<![CDATA[<p><strong>Problems Fixed:</strong></p>
+
+<ul>
+	<li>Critical issue for all UEFI systems using 2.2 TB or greater volumes configured with GPT partitions. For additional information please refer to the customer advisory # <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04602001">c04602001</a></li>
+	<li>When a controller was set to RAID6 mode and a large number of recoverable errors were generated by hard disk drives in the system, the controller might go into a degraded mode and cease to function. A 0x0E error message would display during POST on subsequent power cycle and in the Integrated Management Log (IML)</li>
+	<li>The controller would report 0xE0 error to HP Smart Storage Administrator (HP SSA) and would cease to function when set to RAID 6 mode</li>
+	<li>Intermittent SSD SATA 6G drive failures would occur when drive was configured in Bay 1 of HP ProLiant BL465 Gen8 Server</li>
+	<li>Uncorrectable ECC errors would cause the controller to stop responding (Lockup 0x13).&nbsp; This version of Smart Array firmware properly calculates the maximum controller memory bandwidth required to sustain streaming write operations with the current logical drive configuration and reduces the cache memory speed on configurations that do not require peak controller memory bandwidth.&nbsp; When running at the slower memory speed, less power is consumed and performance degradation is expected to be negligible. For additional information, reference Customer Advisory # <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983">c03755983</a></li>
+	<li>The HP D2220sb Storage Blade is not recognized when configuring it with the HP ProLiant BL460c Gen9 Server Blade. For additional information please refer to the customer advisory # <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04602866">c04602866</a></li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p><strong>Problems Fixed:</strong></p>
+
+<ul>
+	<li>Critical issue for all UEFI systems using 2.2 TB or greater volumes configured with GPT partitions. For additional information please refer to the customer advisory # <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04602001">c04602001</a></li>
+	<li>When a controller was set to RAID6 mode and a large number of recoverable errors were generated by hard disk drives in the system, the controller might go into a degraded mode and cease to function. A 0x0E error message would display during POST on subsequent power cycle and in the Integrated Management Log (IML)</li>
+	<li>The controller would report 0xE0 error to HP Smart Storage Administrator (HP SSA) and would cease to function when set to RAID 6 mode</li>
+	<li>Intermittent SSD SATA 6G drive failures would occur when drive was configured in Bay 1 of HP ProLiant BL465 Gen8 Server</li>
+	<li>Uncorrectable ECC errors would cause the controller to stop responding (Lockup 0x13).&nbsp; This version of Smart Array firmware properly calculates the maximum controller memory bandwidth required to sustain streaming write operations with the current logical drive configuration and reduces the cache memory speed on configurations that do not require peak controller memory bandwidth.&nbsp; When running at the slower memory speed, less power is consumed and performance degradation is expected to be negligible. For additional information, reference Customer Advisory # <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983">c03755983</a></li>
+	<li>The HP D2220sb Storage Blade is not recognized when configuring it with the HP ProLiant BL460c Gen9 Server Blade. For additional information please refer to the customer advisory # <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04602866">c04602866</a></li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="es">
+        <revision_fixes_xlate_part>
+<![CDATA[<p><strong>Problems Fixed:</strong></p>
+
+<ul>
+	<li>Critical issue for all UEFI systems using 2.2 TB or greater volumes configured with GPT partitions. For additional information please refer to the customer advisory # <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04602001">c04602001</a></li>
+	<li>When a controller was set to RAID6 mode and a large number of recoverable errors were generated by hard disk drives in the system, the controller might go into a degraded mode and cease to function. A 0x0E error message would display during POST on subsequent power cycle and in the Integrated Management Log (IML)</li>
+	<li>The controller would report 0xE0 error to HP Smart Storage Administrator (HP SSA) and would cease to function when set to RAID 6 mode</li>
+	<li>Intermittent SSD SATA 6G drive failures would occur when drive was configured in Bay 1 of HP ProLiant BL465 Gen8 Server</li>
+	<li>Uncorrectable ECC errors would cause the controller to stop responding (Lockup 0x13).&nbsp; This version of Smart Array firmware properly calculates the maximum controller memory bandwidth required to sustain streaming write operations with the current logical drive configuration and reduces the cache memory speed on configurations that do not require peak controller memory bandwidth.&nbsp; When running at the slower memory speed, less power is consumed and performance degradation is expected to be negligible. For additional information, reference Customer Advisory # <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983">c03755983</a></li>
+	<li>The HP D2220sb Storage Blade is not recognized when configuring it with the HP ProLiant BL460c Gen9 Server Blade. For additional information please refer to the customer advisory # <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04602866">c04602866</a></li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="fr">
+        <revision_fixes_xlate_part>
+<![CDATA[<p><strong>Problems Fixed:</strong></p>
+
+<ul>
+	<li>Critical issue for all UEFI systems using 2.2 TB or greater volumes configured with GPT partitions. For additional information please refer to the customer advisory # <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04602001">c04602001</a></li>
+	<li>When a controller was set to RAID6 mode and a large number of recoverable errors were generated by hard disk drives in the system, the controller might go into a degraded mode and cease to function. A 0x0E error message would display during POST on subsequent power cycle and in the Integrated Management Log (IML)</li>
+	<li>The controller would report 0xE0 error to HP Smart Storage Administrator (HP SSA) and would cease to function when set to RAID 6 mode</li>
+	<li>Intermittent SSD SATA 6G drive failures would occur when drive was configured in Bay 1 of HP ProLiant BL465 Gen8 Server</li>
+	<li>Uncorrectable ECC errors would cause the controller to stop responding (Lockup 0x13).&nbsp; This version of Smart Array firmware properly calculates the maximum controller memory bandwidth required to sustain streaming write operations with the current logical drive configuration and reduces the cache memory speed on configurations that do not require peak controller memory bandwidth.&nbsp; When running at the slower memory speed, less power is consumed and performance degradation is expected to be negligible. For additional information, reference Customer Advisory # <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983">c03755983</a></li>
+	<li>The HP D2220sb Storage Blade is not recognized when configuring it with the HP ProLiant BL460c Gen9 Server Blade. For additional information please refer to the customer advisory # <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04602866">c04602866</a></li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="it">
+        <revision_fixes_xlate_part>
+<![CDATA[<p><strong>Problems Fixed:</strong></p>
+
+<ul>
+	<li>Critical issue for all UEFI systems using 2.2 TB or greater volumes configured with GPT partitions. For additional information please refer to the customer advisory # <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04602001">c04602001</a></li>
+	<li>When a controller was set to RAID6 mode and a large number of recoverable errors were generated by hard disk drives in the system, the controller might go into a degraded mode and cease to function. A 0x0E error message would display during POST on subsequent power cycle and in the Integrated Management Log (IML)</li>
+	<li>The controller would report 0xE0 error to HP Smart Storage Administrator (HP SSA) and would cease to function when set to RAID 6 mode</li>
+	<li>Intermittent SSD SATA 6G drive failures would occur when drive was configured in Bay 1 of HP ProLiant BL465 Gen8 Server</li>
+	<li>Uncorrectable ECC errors would cause the controller to stop responding (Lockup 0x13).&nbsp; This version of Smart Array firmware properly calculates the maximum controller memory bandwidth required to sustain streaming write operations with the current logical drive configuration and reduces the cache memory speed on configurations that do not require peak controller memory bandwidth.&nbsp; When running at the slower memory speed, less power is consumed and performance degradation is expected to be negligible. For additional information, reference Customer Advisory # <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983">c03755983</a></li>
+	<li>The HP D2220sb Storage Blade is not recognized when configuring it with the HP ProLiant BL460c Gen9 Server Blade. For additional information please refer to the customer advisory # <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04602866">c04602866</a></li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p><strong>修正された問題点：</strong></p>
+
+<ul>
+	<li>GPTパーティションで構成された2.2TBより大きなボリュームを使っているすべてのUEFIシステムのクリティカル問題。 詳細についてはカスタマーアドバイザリ# <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04602001">c04602001</a>を参照してください</li>
+	<li>コントローラーがRAID6モードに設定され、多数の回復可能なエラーがシステム内のハードディスクドライブによって生成された場合、コントローラーは劣化モードに入り、機能しなくなることがありました。 0x0Eエラーメッセージが、その後の電源再投入のPOST中およびインテグレーテッドマネジメントログ（IML）に表示されました</li>
+	<li>RAID 6モードに設定されたときにコントローラーはHP Smart Storage Administrator (HP SSA)に0xE0エラーを報告し機能を中止しました</li>
+	<li>ドライブがHP ProLiant BL465 Gen8サーバーのベイ1に構成された場合、断続的にSSD SATA 6Gドライブ障害が発生しました</li>
+	<li>訂正不能ECCエラーが、コントローラーの応答停止を引き起こしました (Lockup 0x13)。 このバージョンのSmartアレイファームウェアは、現在の論理ドライブ構成でストリーミング書き込み操作を維持するために必要な最大のコントローラーメモリ帯域幅を適切に計算し、ピークのコントローラーメモリ帯域幅を必要としない構成で、キャッシュメモリ速度を削減します。 低速のメモリ速度で動作する場合、より少ない電力消費でパフォーマンスの低下はごくわずかであると予想されます。 詳細については、カスタマーアドバイザリ # <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983">c03755983</a>を参照してください</li>
+	<li>HP ProLiant BL460ｃ Gen9サーバーブレードを構成しているとき、HP D2220sb Storage Bladeは認識されません。 詳細についてはカスタマーアドバイザリ# <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04602866">c04602866</a>を参照してください</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ko">
+        <revision_fixes_xlate_part>
+<![CDATA[<p><strong>해결된 문제:</strong></p>
+
+<ul>
+	<li>GPT 파티션을 사용하여 구성된 2.2TB 이상의 볼륨을 사용하는 모든 UEFI 시스템에 대한 중요한 문제가 있습니다. 자세한 내용은 고객 권고 # <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04602001">c04602001</a>을 참조하십시오.</li>
+	<li>컨트롤러가 RAID6 모드로 설정되어 있고 시스템의 하드 디스크 드라이브로 인해 복구 가능한 오류가 대량 생성된 경우 컨트롤러가 성능 저하 모드로 전환되고 작동이 중단될 수 있습니다. IML(Integrated Management Log) 및 후속 전원 주기에서 POST 중에 0x0E 오류 메시지가 표시됩니다.</li>
+	<li>컨트롤러가 HP 스마트 스토리지 관리자(HP SSA)에 0xE0 오류를 보고하고 RAID 6 모드로 설정되면 작동을 중단합니다.</li>
+	<li>드라이브가 HP ProLiant BL465 Gen8 서버의 베이 1에 구성되어 있는 경우 일시적 SSD SATA 6G 드라이브 오류가 발생합니다.</li>
+	<li>수정 불가능한 ECC 오류로 인해 컨트롤러의 응답이 중지됩니다(잠금 0x13).  이 버전의 Smart Array 펌웨어는 현재의 논리 드라이브 구성을 사용하여 쓰기 작업 스트리밍 유지에 필요한 최대 컨트롤러 메모리 대역폭을 계산하여 최고 컨트롤러 메모리 대역폭이 필요 없는 구성에 대한 캐시 메모리 속도를 낮춥니다.  더 늦은 메모리 속도로 구동되는 경우 전력이 덜 소모되며 성능 저하는 무시해도 될 것으로 예상됩니다. 자세한 내용은 고객 권고 # <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983">c03755983</a>을 참조하십시오.</li>
+	<li>HP ProLiant BL460c Gen9 서버 블레이드를 사용하여 구성한 경우 HP D2220sb 스토리지 블레이드가 인식되지 않습니다. 자세한 내용은 고객 권고 # <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04602866">c04602866</a>을 참조하십시오.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="tw">
+        <revision_fixes_xlate_part>
+<![CDATA[<p><strong>修正的問題：</strong></p>
+
+<ul>
+	<li>所有設定為使用 GPT 分割區的使用 2.2 TB 或以上磁碟區的 UEFI 系統的重大問題。如需詳細資料，請參閱客戶諮詢 # <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04602001">c04602001</a></li>
+	<li>當控制器被設為 RAID6 模式並且系統中的硬碟機產生大量可復原錯誤時，控制器可能會進入降級模式並停止運作。在後續關閉接著開啟電源 POST 期間會顯示 0x0E 錯誤訊息並且記錄在整合式管理記錄 (IML) 中</li>
+	<li>設定為 RAID 6 模式時，控制器會報告 0xE0 錯誤至 HP Smart Storage Administrator (HP 智慧型儲存管理員 (HP SSA)) 並且無法運作</li>
+	<li>在 HP ProLiant BL465 Gen8 伺服器的插槽 1 中配置磁碟機時，會間歇性發生 SSD SATA 6G 磁碟機故障</li>
+	<li>無法修正的 ECC 錯誤導致控制器停止回應 (鎖定 0x13)。此版本智慧陣列韌體正確計算運用目前邏輯磁碟機組態來維持串流寫入作業所需的最大控制器記憶體頻寬，並且減少不需要峰值控制器記憶體頻寬的組態的快取記憶體速度。以較慢的記憶體速度執行時，消耗更少的電源且效能的降低可忽略不計。如需詳細資料，請參閱客戶諮詢 # <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983">c03755983</a></li>
+	<li>使用 HP ProLiant BL460c Gen9 刀鋒型伺服器設定 HP D2220sb 儲存刀鋒型伺服器時，無法辨識 HP D2220sb 儲存刀鋒型伺服器。如需詳細資料，請參閱客戶諮詢 # <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c04602866">c04602866</a></li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="6.12" revision="" type_of_change="0"/>
+      <revision_fixes_xlate lang="cn">
+        <revision_fixes_xlate_part>
+<![CDATA[<strong>已解决的问题：</strong><br />
+<ul>
+	<li> 		修复了在HBA模式下在SATA驱动器上运行IO时，罕见的控制器挂起的问题。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="de">
+        <revision_fixes_xlate_part>
+<![CDATA[<strong>Problems Fixed:</strong><br />
+<ul>
+	<li>
+		Fix for a rare controller hang when running IO to SATA drives when in HBA-mode.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<strong>Problems Fixed:</strong><br />
+<ul>
+	<li>
+		Fix for a rare controller hang when running IO to SATA drives when in HBA-mode.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="es">
+        <revision_fixes_xlate_part>
+<![CDATA[<strong>Problems Fixed:</strong><br />
+<ul>
+	<li>
+		Fix for a rare controller hang when running IO to SATA drives when in HBA-mode.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="fr">
+        <revision_fixes_xlate_part>
+<![CDATA[<strong>Problems Fixed:</strong><br />
+<ul>
+	<li>
+		Fix for a rare controller hang when running IO to SATA drives when in HBA-mode.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="it">
+        <revision_fixes_xlate_part>
+<![CDATA[<strong>Problems Fixed:</strong><br />
+<ul>
+	<li>
+		Fix for a rare controller hang when running IO to SATA drives when in HBA-mode.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<strong>修正された問題点：</strong><br />
+<ul>
+	<li>
+		HBAモードで、SATAドライブへのIOを実行する場合のまれなコントローラーのハングアップを修正します。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ko">
+        <revision_fixes_xlate_part>
+<![CDATA[<strong>해결된 문제:</strong><br />
+<ul>
+	<li> 		드물지만 HBA 모드에서 SATA 드라이브에 IO를 실행할 때 컨트롤러가 중단되는 문제를 해결했습니다.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="tw">
+        <revision_fixes_xlate_part>
+<![CDATA[<strong>修正的問題：</strong><br />
+<ul>
+	<li> 		修正在 HBA 模式中時執行 SATA 磁碟機 IO 時罕見的控制器當機的問題。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="6.10" revision="" type_of_change="0"/>
+      <revision_enhancements_xlate lang="cn">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>增强功能/新功能：</strong>
+<ul>
+ <li>   增加了对非热插拔驱动程序的支持。</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="de">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>Enhancements/New Features:</strong>
+<ul>
+ <li>
+  Added support for non-hotplug drives.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>Enhancements/New Features:</strong>
+<ul>
+ <li>
+  Added support for non-hotplug drives.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="es">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>Enhancements/New Features:</strong>
+<ul>
+ <li>
+  Added support for non-hotplug drives.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="fr">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>Enhancements/New Features:</strong>
+<ul>
+ <li>
+  Added support for non-hotplug drives.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="it">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>Enhancements/New Features:</strong>
+<ul>
+ <li>
+  Added support for non-hotplug drives.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>改善点/新しい機能：</strong>
+<ul>
+ <li>
+  非ホットプラグドライブのサポートを追加しました。</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ko">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>향상된 기능/새로운 기능:</strong>
+<ul>
+ <li>   핫 플러그 이외 드라이브에 대한 지원을 추가했습니다.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="tw">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>Enhancements/New Features:</strong>
+<ul>
+ <li>
+  Added support for non-hotplug drives.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="cn">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>  <strong>已解决的问题：</strong></p>
+<ul>
+ <li>   当设置为RAID 6模式时，控制器将向HP智能存储管理器报告0xE0错误，并停止运行。</li>
+ <li>   HP ProLiant BL465 Gen8服务器的托架1的SSD SATA 6G驱动器间歇性发生故障。</li>
+ <li>   不能修复的 ECC 错误导致控制器挂起（锁定 0x13）。智能阵列固件计算要求的最大控制器内存带宽，以承受当前逻辑驱动器配置的流写入操作，并减少不需要最大控制器内存带宽配置下的高速缓存内存速度。当以较低内存数量运行时，消耗较少的功耗，因而性能降级可以忽略。如欲了解更多信息，请参考客户顾问文档 c03755983，网址为： <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983">http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983</a></li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="de">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ <strong>Problems Fixed:</strong></p>
+<ul>
+ <li>
+  The controller would report 0xE0 error to HP Smart Storage Administrator and would cease to function when set to RAID 6 mode.</li>
+ <li>
+  Intermittent SSD SATA 6G drive failure in Bay 1 of the HP ProLiant BL465 Gen8 Server.</li>
+ <li>
+  Uncorrectable ECC errors causing controller to hang (Lockup 0x13).&nbsp; Smart Array firmware calculates the maximum controller memory bandwidth required to sustain streaming write operations with the current logical drive configuration and reduces the cache memory speed on configurations that do not require peak controller memory bandwidth.&nbsp; When running at the slower memory speed, less power is consumed and performance degradation is expected to be negligible. For additional information, reference Customer Advisory c03755983 at the following URL: <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983">http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983</a></li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ <strong>Problems Fixed:</strong></p>
+<ul>
+ <li>
+  The controller would report 0xE0 error to HP Smart Storage Administrator and would cease to function when set to RAID 6 mode.</li>
+ <li>
+  Intermittent SSD SATA 6G drive failure in Bay 1 of the HP ProLiant BL465 Gen8 Server.</li>
+ <li>
+  Uncorrectable ECC errors causing controller to hang (Lockup 0x13).&nbsp; Smart Array firmware calculates the maximum controller memory bandwidth required to sustain streaming write operations with the current logical drive configuration and reduces the cache memory speed on configurations that do not require peak controller memory bandwidth.&nbsp; When running at the slower memory speed, less power is consumed and performance degradation is expected to be negligible. For additional information, reference Customer Advisory c03755983 at the following URL: <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983">http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983</a></li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="es">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ <strong>Problems Fixed:</strong></p>
+<ul>
+ <li>
+  The controller would report 0xE0 error to HP Smart Storage Administrator and would cease to function when set to RAID 6 mode.</li>
+ <li>
+  Intermittent SSD SATA 6G drive failure in Bay 1 of the HP ProLiant BL465 Gen8 Server.</li>
+ <li>
+  Uncorrectable ECC errors causing controller to hang (Lockup 0x13).&nbsp; Smart Array firmware calculates the maximum controller memory bandwidth required to sustain streaming write operations with the current logical drive configuration and reduces the cache memory speed on configurations that do not require peak controller memory bandwidth.&nbsp; When running at the slower memory speed, less power is consumed and performance degradation is expected to be negligible. For additional information, reference Customer Advisory c03755983 at the following URL: <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983">http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983</a></li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="fr">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ <strong>Problems Fixed:</strong></p>
+<ul>
+ <li>
+  The controller would report 0xE0 error to HP Smart Storage Administrator and would cease to function when set to RAID 6 mode.</li>
+ <li>
+  Intermittent SSD SATA 6G drive failure in Bay 1 of the HP ProLiant BL465 Gen8 Server.</li>
+ <li>
+  Uncorrectable ECC errors causing controller to hang (Lockup 0x13).&nbsp; Smart Array firmware calculates the maximum controller memory bandwidth required to sustain streaming write operations with the current logical drive configuration and reduces the cache memory speed on configurations that do not require peak controller memory bandwidth.&nbsp; When running at the slower memory speed, less power is consumed and performance degradation is expected to be negligible. For additional information, reference Customer Advisory c03755983 at the following URL: <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983">http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983</a></li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="it">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ <strong>Problems Fixed:</strong></p>
+<ul>
+ <li>
+  The controller would report 0xE0 error to HP Smart Storage Administrator and would cease to function when set to RAID 6 mode.</li>
+ <li>
+  Intermittent SSD SATA 6G drive failure in Bay 1 of the HP ProLiant BL465 Gen8 Server.</li>
+ <li>
+  Uncorrectable ECC errors causing controller to hang (Lockup 0x13).&nbsp; Smart Array firmware calculates the maximum controller memory bandwidth required to sustain streaming write operations with the current logical drive configuration and reduces the cache memory speed on configurations that do not require peak controller memory bandwidth.&nbsp; When running at the slower memory speed, less power is consumed and performance degradation is expected to be negligible. For additional information, reference Customer Advisory c03755983 at the following URL: <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983">http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983</a></li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ <strong>修正された問題点：</strong></p>
+<ul>
+ <li>
+  RAID 6モードに設定されたときにコントローラーはHP Smart Storage Administratorに0xE0エラーを報告し機能を中止しました。</li>
+ <li>
+  HP ProLiant BL465 Gen8サーバーのベイ 1での断続的なSSD SATA 6Gドライブ障害。 </li>
+ <li>
+  訂正不能ECCエラーがコントローラーのハングアップを引き起こします(ロックアップ 0x13)。 Smartアレイファームウェアは、現在の論理ドライブ構成でストリーミング書き込み操作を維持するために必要な最大のコントローラーメモリ帯域幅を計算し、ピークのコントローラーメモリ帯域幅を必要としない構成で、キャッシュメモリ速度を削減します。 低速のメモリ速度で動作する場合、より少ない電力消費でパフォーマンスの低下はごくわずかであると予想されます。 詳しくは、以下のURLのカスタマーアドバイザリc03755983を参照してください。 <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983">http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983</a></li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ko">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>  <strong>해결된 문제:</strong></p>
+<ul>
+ <li>   컨트롤러가 HP Smart Storage Administrator에 0xE0 오류를 보고하고 RAID 6 모드로 설정된 경우 작동을 중단합니다.</li>
+ <li>   HP ProLiant BL465 Gen8 서버의 베이 1에서 간헐적으로 SSD SATA 6g 드라이브 장애가 발생합니다.</li>
+ <li>   컨트롤러 중단을 유발하는 수정 불가능한 ECC 오류(록업 0x13).  Smart Array 펌웨어는 현재의 논리 드라이브 구성을 사용하여 쓰기 작업 스트리밍 유지에 필요한 최대 메모리 대역폭을 계산하여 최대 컨트롤러 메모리 대역폭이 필요 없는 구성에 대한 캐시 메모리 속도를 낮춥니다.  더 늦은 메모리 속도로 구동되는 경우 전력이 덜 소모되며 성능 저하는 무시해도 될 것으로 예상됩니다. 자세한 정보는 다음 URL을 통해 제공되는 고객 권고사항 c03755983을 참조하십시오. <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983">http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983.</a></li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="tw">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ <strong>Problems Fixed:</strong></p>
+<ul>
+ <li>
+  The controller would report 0xE0 error to HP Smart Storage Administrator and would cease to function when set to RAID 6 mode.</li>
+ <li>
+  Intermittent SSD SATA 6G drive failure in Bay 1 of the HP ProLiant BL465 Gen8 Server.</li>
+ <li>
+  Uncorrectable ECC errors causing controller to hang (Lockup 0x13).&nbsp; Smart Array firmware calculates the maximum controller memory bandwidth required to sustain streaming write operations with the current logical drive configuration and reduces the cache memory speed on configurations that do not require peak controller memory bandwidth.&nbsp; When running at the slower memory speed, less power is consumed and performance degradation is expected to be negligible. For additional information, reference Customer Advisory c03755983 at the following URL: <a href="http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983">http://h20564.www2.hp.com/portal/site/hpsc/public/kb/docDisplay/?docId=emr_na-c03755983</a></li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="6.00" revision="B" type_of_change="1"/>
+      <revision_enhancements_xlate lang="cn">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>6.00 (B)的功能增强/新特性：</strong>
+<ul>
+ <li>   增加了对SUSE Linux Enterprise Server 12的支持</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="de">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>Enhancements/New Features for 6.00 (B):</strong>
+<ul>
+ <li>
+  Added support for SUSE Linux Enterprise Server 12</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>Enhancements/New Features for 6.00 (B):</strong>
+<ul>
+ <li>
+  Added support for SUSE Linux Enterprise Server 12</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="es">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>Enhancements/New Features for 6.00 (B):</strong>
+<ul>
+ <li>
+  Added support for SUSE Linux Enterprise Server 12</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="fr">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>Enhancements/New Features for 6.00 (B):</strong>
+<ul>
+ <li>
+  Added support for SUSE Linux Enterprise Server 12</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="it">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>Enhancements/New Features for 6.00 (B):</strong>
+<ul>
+ <li>
+  Added support for SUSE Linux Enterprise Server 12</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>6.00 (B)の改善点/新しい機能：</strong>
+<ul>
+ <li>
+  SUSE Linux Enterprise Server 12のサポートを追加しました</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ko">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>6.00 (B)의 향상된 기능/새로운 기능:</strong>
+<ul>
+ <li>   SUSE Linux Enterprise Server 12에 대한 지원 추가</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="tw">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>適用於 6.00 (B) 的增強或新增功能：</strong>
+<ul>
+ <li>   已新增對 SUSE Linux Enterprise Server 12 的支援</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="cn">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>  <strong>6.00 版本修复的问题：</strong><br /> 该版固件解决了以下问题：</p>
+<ul>
+ <li>   在零内存RAID (ZMR) 模式下运行的系统上执行内核转储（kdump）时，控制器可能停止响应。</li>
+ <li>   HP智能阵列P420控制器连接到扩展背板和非扩展背板时，控制器不能正确控制SmartCarrier LED指示灯。</li>
+ <li>   Chkdsk运行缓慢。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="de">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ <strong>Problems Fixed in version 6.00:</strong><br />
+ This firmware release resolved the following issues:</p>
+<ul>
+ <li>
+  When executing kdump on systems running in Zero Memory RAID (ZMR) mode, the controller might halt.</li>
+ <li>
+  When an HP Smart Array P420 controller was attached to both an expander backplane and non-expander backplane, the controller would not properly control SmartCarrier LEDs.</li>
+ <li>
+  Chkdsk was running slowly.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ <strong>Problems Fixed in version 6.00:</strong><br />
+ This firmware release resolved the following issues:</p>
+<ul>
+ <li>
+  When executing kdump on systems running in Zero Memory RAID (ZMR) mode, the controller might halt.</li>
+ <li>
+  When an HP Smart Array P420 controller was attached to both an expander backplane and non-expander backplane, the controller would not properly control SmartCarrier LEDs.</li>
+ <li>
+  Chkdsk was running slowly.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="es">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ <strong>Problems Fixed in version 6.00:</strong><br />
+ This firmware release resolved the following issues:</p>
+<ul>
+ <li>
+  When executing kdump on systems running in Zero Memory RAID (ZMR) mode, the controller might halt.</li>
+ <li>
+  When an HP Smart Array P420 controller was attached to both an expander backplane and non-expander backplane, the controller would not properly control SmartCarrier LEDs.</li>
+ <li>
+  Chkdsk was running slowly.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="fr">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ <strong>Problems Fixed in version 6.00:</strong><br />
+ This firmware release resolved the following issues:</p>
+<ul>
+ <li>
+  When executing kdump on systems running in Zero Memory RAID (ZMR) mode, the controller might halt.</li>
+ <li>
+  When an HP Smart Array P420 controller was attached to both an expander backplane and non-expander backplane, the controller would not properly control SmartCarrier LEDs.</li>
+ <li>
+  Chkdsk was running slowly.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="it">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ <strong>Problems Fixed in version 6.00:</strong><br />
+ This firmware release resolved the following issues:</p>
+<ul>
+ <li>
+  When executing kdump on systems running in Zero Memory RAID (ZMR) mode, the controller might halt.</li>
+ <li>
+  When an HP Smart Array P420 controller was attached to both an expander backplane and non-expander backplane, the controller would not properly control SmartCarrier LEDs.</li>
+ <li>
+  Chkdsk was running slowly.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ <strong>バージョン6.00で修正された問題：</strong><br /> このファームウェアリリースは、次の問題を解決しました。</p>
+<ul>
+ <li>
+  Zero Memory RAID (ZMR)モードで実行しているシステムでkdumpを実行すると、コントローラーは停止することがあります。</li>
+ <li>
+  HP SmartアレイP420コントローラーがエキスパンダーバックプレーンと非エキスパンダーバックプレーンの両方に接続されたた場合、コントローラーはSmartCarrier LEDを正しく制御しません。</li>
+ <li>
+  Chkdskの実行が遅かった。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ko">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>  <strong>버전 6.00에서 해결된 문제:</strong><br /> 이 펌웨어 릴리스에서 다음과 같은 문제가 해결되었습니다.</p>
+<ul>
+ <li>   Zero Memory RAID(ZMR) 모드에서 실행 중인 시스템에 kdump를 실행할 때 컨트롤러가 정지할 수 있습니다.</li>
+ <li>   HP 스마트 어레이 P420 컨트롤러가 익스팬더 백플레인 및 비익스팬 더 백플레인 둘 다에 장착되어 있을 때, 컨트롤러가 SmartCarrier LED를 올바로 제어하지 않습니다.</li>
+ <li>   Chkdsk가 느리게 실행됩니다.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="tw">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>  <strong>6.00 版中修正的問題：</strong><br /> 此韌體版本已解決下列問題：</p>
+<ul>
+ <li>   在零記憶體 RAID (ZMR) 模式中執行的系統上執行 kdump 時，控制器可能會暫停。</li>
+ <li>   HP Smart Array P420 控制器已連接至擴充背板與非擴充背板，控制器不會適當控制 SmartCarrier LED。</li>
+ <li>   Chkdsk 執行速度變慢。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="6.00" revision="" type_of_change="1"/>
+      <revision_fixes_xlate lang="cn">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>  <strong>6.00 版本修复的问题：</strong><br /> 该版固件解决了以下问题：</p>
+<ul>
+ <li>   在零内存RAID (ZMR) 模式下运行的系统上执行内核转储（kdump）时，控制器可能停止响应。</li>
+ <li>   HP智能阵列P420控制器连接到扩展背板和非扩展背板时，控制器不能正确控制SmartCarrier LED指示灯。</li>
+ <li>   Chkdsk运行缓慢。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="de">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ <strong>Problems Fixed in version 6.00:</strong><br />
+ This firmware release resolved the following issues:</p>
+<ul>
+ <li>
+  When executing kdump on systems running in Zero Memory RAID (ZMR) mode, the controller might halt.</li>
+ <li>
+  When an HP Smart Array P420 controller was attached to both an expander backplane and non-expander backplane, the controller would not properly control SmartCarrier LEDs.</li>
+ <li>
+  Chkdsk was running slowly.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ <strong>Problems Fixed in version 6.00:</strong><br />
+ This firmware release resolved the following issues:</p>
+<ul>
+ <li>
+  When executing kdump on systems running in Zero Memory RAID (ZMR) mode, the controller might halt.</li>
+ <li>
+  When an HP Smart Array P420 controller was attached to both an expander backplane and non-expander backplane, the controller would not properly control SmartCarrier LEDs.</li>
+ <li>
+  Chkdsk was running slowly.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="es">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ <strong>Problems Fixed in version 6.00:</strong><br />
+ This firmware release resolved the following issues:</p>
+<ul>
+ <li>
+  When executing kdump on systems running in Zero Memory RAID (ZMR) mode, the controller might halt.</li>
+ <li>
+  When an HP Smart Array P420 controller was attached to both an expander backplane and non-expander backplane, the controller would not properly control SmartCarrier LEDs.</li>
+ <li>
+  Chkdsk was running slowly.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="fr">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ <strong>Problems Fixed in version 6.00:</strong><br />
+ This firmware release resolved the following issues:</p>
+<ul>
+ <li>
+  When executing kdump on systems running in Zero Memory RAID (ZMR) mode, the controller might halt.</li>
+ <li>
+  When an HP Smart Array P420 controller was attached to both an expander backplane and non-expander backplane, the controller would not properly control SmartCarrier LEDs.</li>
+ <li>
+  Chkdsk was running slowly.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="it">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ <strong>Problems Fixed in version 6.00:</strong><br />
+ This firmware release resolved the following issues:</p>
+<ul>
+ <li>
+  When executing kdump on systems running in Zero Memory RAID (ZMR) mode, the controller might halt.</li>
+ <li>
+  When an HP Smart Array P420 controller was attached to both an expander backplane and non-expander backplane, the controller would not properly control SmartCarrier LEDs.</li>
+ <li>
+  Chkdsk was running slowly.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ <strong>バージョン6.00で修正された問題：</strong><br /> このファームウェアリリースは、次の問題を解決しました。</p>
+<ul>
+ <li>
+  Zero Memory RAID (ZMR)モードで実行しているシステムでkdumpを実行すると、コントローラーは停止することがあります。</li>
+ <li>
+  HP SmartアレイP420コントローラーがエキスパンダーバックプレーンと非エキスパンダーバックプレーンの両方に接続されたた場合、コントローラーはSmartCarrier LEDを正しく制御しません。</li>
+ <li>
+  Chkdskの実行が遅かった。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ko">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>  <strong>버전 6.00에서 해결된 문제:</strong><br /> 이 펌웨어 릴리스에서 다음과 같은 문제가 해결되었습니다.</p>
+<ul>
+ <li>   Zero Memory RAID(ZMR) 모드에서 실행 중인 시스템에 kdump를 실행할 때 컨트롤러가 정지할 수 있습니다.</li>
+ <li>   HP 스마트 어레이 P420 컨트롤러가 익스팬더 백플레인 및 비익스팬 더 백플레인 둘 다에 장착되어 있을 때, 컨트롤러가 SmartCarrier LED를 올바로 제어하지 않습니다.</li>
+ <li>   Chkdsk가 느리게 실행됩니다.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="tw">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>  <strong>6.00 版中修正的問題：</strong><br /> 此韌體版本已解決下列問題：</p>
+<ul>
+ <li>   在零記憶體 RAID (ZMR) 模式中執行的系統上執行 kdump 時，控制器可能會暫停。</li>
+ <li>   HP Smart Array P420 控制器已連接至擴充背板與非擴充背板，控制器不會適當控制 SmartCarrier LED。</li>
+ <li>   Chkdsk 執行速度變慢。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="3.58" revision="" type_of_change="0"/>
+      <revision_enhancements_xlate lang="cn">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>增强功能/新功能：</strong>
+<ul>
+	<li> 		 捕获故障转储信息的功能。</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="de">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>Enhancements/New Features:</strong>
+<ul>
+	<li>
+		&nbsp;Ability to capture crash dump information.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>Enhancements/New Features:</strong>
+<ul>
+	<li>
+		&nbsp;Ability to capture crash dump information.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="es">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>Enhancements/New Features:</strong>
+<ul>
+	<li>
+		&nbsp;Ability to capture crash dump information.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="fr">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>Enhancements/New Features:</strong>
+<ul>
+	<li>
+		&nbsp;Ability to capture crash dump information.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="it">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>Enhancements/New Features:</strong>
+<ul>
+	<li>
+		&nbsp;Ability to capture crash dump information.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>改善点/新しい機能：</strong>
+<ul>
+	<li>
+		 クラッシュダンプ情報を取得する機能。</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ko">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>향상된 기능/새로운 기능:</strong>
+<ul>
+	<li> 		 크래시 덤프 정보를 캡처하는 기능입니다.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="tw">
+        <revision_enhancements_xlate_part>
+<![CDATA[<strong>增強或新增功能：</strong>
+<ul>
+	<li> 		 擷取當機轉儲資訊的能力。</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+    </revision>
+  </revision_history>
+  <sw_keys>
+    <sw_keys_and>
+      <sw_key name="3355103c">
+        <sw_key_expectedpath>firmware:smartarray</sw_key_expectedpath>
+      </sw_key>
+    </sw_keys_and>
+    <sw_keys_and>
+      <sw_key name="3350103c">
+        <sw_key_expectedpath>firmware:smartarray</sw_key_expectedpath>
+      </sw_key>
+    </sw_keys_and>
+    <sw_keys_and>
+      <sw_key name="3351103c">
+        <sw_key_expectedpath>firmware:smartarray</sw_key_expectedpath>
+      </sw_key>
+    </sw_keys_and>
+    <sw_keys_and>
+      <sw_key name="3354103c">
+        <sw_key_expectedpath>firmware:smartarray</sw_key_expectedpath>
+      </sw_key>
+    </sw_keys_and>
+    <sw_keys_and>
+      <sw_key name="3352103c">
+        <sw_key_expectedpath>firmware:smartarray</sw_key_expectedpath>
+      </sw_key>
+    </sw_keys_and>
+    <sw_keys_and>
+      <sw_key name="3353103c">
+        <sw_key_expectedpath>firmware:smartarray</sw_key_expectedpath>
+      </sw_key>
+    </sw_keys_and>
+    <sw_keys_and>
+      <sw_key name="3356103C">
+        <sw_key_expectedpath>firmware:smartarray</sw_key_expectedpath>
+      </sw_key>
+    </sw_keys_and>
+    <sw_keys_and>
+      <sw_key name="D2220sb">
+        <sw_key_expectedpath>firmware:smartarray</sw_key_expectedpath>
+      </sw_key>
+    </sw_keys_and>
+  </sw_keys>
+  <prerequisites>
+    <supported_operating_systems>
+      <supported_operating_system platform="suse_linux_enterprise_server_x86_64" major="10" minor="0" sr="OEM" name="SUSE LINUX Enterprise Server 10 (AMD64/EM64T)"/>
+      <supported_operating_system platform="suse_linux_enterprise_server_x86_64" major="12" minor="0" sr="OEM" name="SUSE Linux Enterprise Server 12"/>
+      <supported_operating_system platform="suse_linux_enterprise_server_x86_64" major="11" minor="0" sr="OEM" name="SUSE LINUX Enterprise Server 11 (AMD64/EM64T)"/>
+      <supported_operating_system platform="red_hat_enterprise_linux_x86_64" major="7" minor="0" sr="OEM" name="Red Hat Enterprise Linux 7 Server"/>
+      <supported_operating_system platform="red_hat_enterprise_linux_x86_64" major="6" minor="0" sr="OEM" name="Red Hat Enterprise Linux 6 Server (x86-64)"/>
+    </supported_operating_systems>
+    <supported_devices>
+      <supported_devices_and>
+        <supported_device type="pci">
+          <supported_device_data name="ven">103c</supported_device_data>
+          <supported_device_data name="dev">323b</supported_device_data>
+          <supported_device_data name="subven">103c</supported_device_data>
+          <supported_device_data name="subdev">3352</supported_device_data>
+        </supported_device>
+      </supported_devices_and>
+      <supported_devices_and>
+        <supported_device type="pci">
+          <supported_device_data name="ven">103c</supported_device_data>
+          <supported_device_data name="dev">323b</supported_device_data>
+          <supported_device_data name="subven">103c</supported_device_data>
+          <supported_device_data name="subdev">3351</supported_device_data>
+        </supported_device>
+      </supported_devices_and>
+      <supported_devices_and>
+        <supported_device type="pci">
+          <supported_device_data name="ven">103c</supported_device_data>
+          <supported_device_data name="dev">323b</supported_device_data>
+          <supported_device_data name="subven">103c</supported_device_data>
+          <supported_device_data name="subdev">3354</supported_device_data>
+        </supported_device>
+      </supported_devices_and>
+      <supported_devices_and>
+        <supported_device type="pci">
+          <supported_device_data name="ven">103c</supported_device_data>
+          <supported_device_data name="dev">323b</supported_device_data>
+          <supported_device_data name="subven">103c</supported_device_data>
+          <supported_device_data name="subdev">3350</supported_device_data>
+        </supported_device>
+      </supported_devices_and>
+      <supported_devices_and>
+        <supported_device type="pci">
+          <supported_device_data name="ven">103c</supported_device_data>
+          <supported_device_data name="dev">323b</supported_device_data>
+          <supported_device_data name="subven">103c</supported_device_data>
+          <supported_device_data name="subdev">3355</supported_device_data>
+        </supported_device>
+      </supported_devices_and>
+      <supported_devices_and>
+        <supported_device type="pci">
+          <supported_device_data name="ven">103c</supported_device_data>
+          <supported_device_data name="dev">323b</supported_device_data>
+          <supported_device_data name="subven">103c</supported_device_data>
+          <supported_device_data name="subdev">3353</supported_device_data>
+        </supported_device>
+      </supported_devices_and>
+      <supported_devices_and>
+        <supported_device type="pci">
+          <supported_device_data name="ven">103C</supported_device_data>
+          <supported_device_data name="dev">323B</supported_device_data>
+          <supported_device_data name="subven">103C</supported_device_data>
+          <supported_device_data name="subdev">3356</supported_device_data>
+        </supported_device>
+      </supported_devices_and>
+    </supported_devices>
+    <required_diskspace size_kb="1500"/>
+  </prerequisites>
+  <installation>
+    <install>
+      <install_caps silent="yes" needuseracct="no"/>
+      <command>CP033363.scexe</command>
+      <command_params/>
+      <reboot_required value="yes"/>
+      <reboot_details value="Required">
+        <reboot_details_xlate lang="cn">安装之后必须重启才能使更新生效并保持硬件稳定性。</reboot_details_xlate>
+        <reboot_details_xlate lang="en">Reboot is required after installation for updates to take effect and hardware stability to be maintained.</reboot_details_xlate>
+        <reboot_details_xlate lang="ja">アップデートの効果とハードウェアの安定を得るために、インストール後の再起動は必要です。</reboot_details_xlate>
+        <reboot_details_xlate lang="ko">업데이트가 적용되고 하드웨어 안정성이 유지되려면 설치 후 재부팅해야 합니다.</reboot_details_xlate>
+        <reboot_details_xlate lang="tw">安裝後必須重新啟動，更新才會生效，並維持硬體穩定。</reboot_details_xlate>
+      </reboot_details>
+      <per_device_install_time_seconds>0</per_device_install_time_seconds>
+    </install>
+    <uninstall>
+      <uninstall_caps silent="no"/>
+      <command/>
+      <command_params/>
+      <reboot_required value="no"/>
+    </uninstall>
+  </installation>
+  <variables>
+    <variable name="rfcdate">Mon, 16 Oct 2017 11:55:59</variable>
+    <variable name="releasenum">1.1</variable>
+    <variable name="buildnum">1</variable>
+    <variable name="supported">True</variable>
+    <variable name="firmwareid">46a4d957a7</variable>
+    <variable name="rpmname">hp-firmware-smartarray-46a4d957a7</variable>
+    <variable name="firmwarename">46a4d957a7</variable>
+    <variable name="type">smartcomponent-linux-firmware-array</variable>
+    <variable name="name">hp-firmware-smartarray-46a4d957a7</variable>
+    <variable name="debname">hp-firmware-smartarray-46a4d957a7</variable>
+    <variable name="release">1.1</variable>
+  </variables>
+</cpq_package>

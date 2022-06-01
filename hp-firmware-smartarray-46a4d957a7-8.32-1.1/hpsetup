@@ -1,0 +1,343 @@
+#!/bin/bash
+
+#check that all programs we need are present on the path.
+_DEPS="rm mkdir echo dirname basename awk"
+which ${_DEPS} > /dev/null
+if test $? != 0 ; then 
+    echo "$0: cannot find a required program." >&2
+    echo "Make sure these programs are on the path: $_DEPS" >&2
+    exit 3
+fi
+
+echo=$(which echo) # don't use builtin echo
+EXEDIR=$(dirname $0)
+BASENAME=$(basename $0)
+STARTDIR="${PWD}"
+cd "${EXEDIR}"
+
+_TFILE="/tmp/${BASENAME}.$$.tmp"
+SUCCESS=0
+ORCODE=0
+ANDCODE=1
+SKIPPRE=
+IGNOREPRE=
+
+_ISITOA=0
+_HPSUM=0
+
+# set -x # Uncomment for debug output.
+
+###############
+# Script Die
+###############
+Die()
+{
+    rm -rf ${_TFILE}
+    cd "${STARTDIR}"
+    exit $@
+}
+
+###############
+# Script InitLog
+###############
+InitLog()
+{
+    _LOGFILE=/var/cpq/Component.log
+
+    if [ ! -f $_LOGFILE ];
+    then
+        if [ ! -d /var/cpq ];
+        then
+            /bin/mkdir -p /var/cpq
+        fi
+        touch $_LOGFILE;
+    fi
+
+    ${echo} -e "=================================================================\n" >>$_LOGFILE
+    ${echo} -e "Installation started: `date`\n" >>$_LOGFILE
+    if [ "${_NOLOG}" -eq "0" ]
+    then
+        ${echo} -e "     Installing: $_COMPONENT" >>$_LOGFILE
+        ${echo} -e "        Version: $_VERSION" >>$_LOGFILE
+        ${echo} -e "    Description: $_DESCRIPT\n\n" >>$_LOGFILE
+    fi
+
+    if [ -x /usr/bin/logger ]; then
+        logger "Firmware flash initiated:  $_COMPONENT $_VERSION"
+    fi
+
+    return
+}
+
+###############
+# Script EndLog
+###############
+EndLog()
+{
+    ${echo} -e "\n\n     Return code:    $_RESULT" >>$_LOGFILE
+    ${echo} -e "\nInstallation complete: `date`" >>$_LOGFILE
+    ${echo} -e "\n=================================================================\n" >>$_LOGFILE
+    
+    if [ -x /usr/bin/logger ]; then
+        logger "Firmware flash completed:  $_COMPONENT $_VERSION,  return code $_RESULT."
+    fi
+
+    return
+}
+
+
+###############
+# Script Parse_XML
+###############
+Parse_XML()
+{
+
+    TDIR=$1
+    _VERSION=
+    _REVISION=
+    _FILENAME=
+    _COMPONENT=
+    _DESCRIPT=
+    _ISITOA=0
+    _NOLOG=0
+   _OAVERSION=
+
+    local TMP=/tmp/tmpfile.txt-$$
+    local JUNK
+
+    # find the cpq_package XML file and assign it to file
+    local file=
+    for xmlfile in *.xml
+    do
+        if [ -n "$(head ${xmlfile} | grep '<cpq_package')" ] ; then
+            file="${xmlfile}"
+            break
+        fi
+    done
+
+
+    if [ -z "${file}" ] || [ ! -f "${file}" ]
+    then
+        _NOLOG=1
+        return
+    fi
+
+    ${echo} `grep \<version $file|awk -F = '{print $2}'|awk '{print $1}'|tr -d '"'` > $TMP
+    read _VERSION JUNK < $TMP
+    ${echo} `grep \<version $file|awk -F '=' '{print $3}'|awk '{print $1}'|tr -d '"'` > $TMP
+    read _REVISION JUNK < $TMP
+
+    _OAVERSION=${_VERSION}
+    _VERSION=${_VERSION}${_REVISION}
+    _FILENAME=`grep -A7 \<installation\> $file|grep \<command_params\>|awk -F '>' '{print $2}'|awk -F '<' '{print $1}'|tr -d '"'`
+    _COMPONENT=`grep \<filename\> $file|awk -F '>' '{print $2}'|awk -F '<' '{print $1}'|tr -d '"'`
+    _DESCRIPT=`grep -m 1 '<name_xlate lang="en">' $file|awk -F '>' '{print $2}'|awk -F '<' '{print $1}'|tr -d '"'`
+
+    if [ $(egrep -ic "firmware:oa" $file) -gt 0 ] || [ $(egrep -ic "firmware:.oa" $file) -gt 0 ]
+    then
+	_ISITOA=1
+    fi
+
+    rm -f ${TMP}
+    return
+}
+
+###############
+# Script Validate_RC
+###############
+Validate_RC()
+{
+    if [ "${_HPSUM}" -ne "0" ]
+    then
+        if [ "${_ISITOA}" -ne "0" ]
+        then
+            return
+        fi
+    else
+        if [ "${_ISITOA}" -ne "0" ]
+        then
+            _RESULT=$(( ($_RESULT / 20) - 1 ))
+        fi
+    fi
+    if [ "${_RESULT}" -lt "0" ] || [ "${_RESULT}" -gt "7" ]
+    then
+        _RESULT=7
+    fi
+    return
+}
+
+
+###############
+# Check dependencies
+###############
+chkdeps()
+{
+    local DIR=$1
+    local CHECKFAILED=
+    PREDIRS=$(find $DIR -maxdepth 1 -type d -name '*pre.d' 2>>/dev/null)
+    for PREDIR in ${PREDIRS}
+    do
+        # Recursive!
+        local CWD="${PWD}"
+        cd "${PREDIR}"
+        chkdeps .
+        cd "${CWD}"
+
+        # First do all the "OR" comparisions
+        ORFILES=$(ls ${PREDIR}/or* 2>>/dev/null)
+        if [ -n "${ORFILES}" ] ; then
+            for pre in ${ORFILES}
+            do
+                ${pre} >> "${_TFILE}" 2>&1
+                SUBCODE=$?
+                if [ "${SUBCODE}" -eq "${SUCCESS}" ] ; then
+                    ORCODE=1
+                    break
+                fi
+            done
+        fi
+        
+        # Now do all the "AND" comparisions
+        ANDFILES=$(ls ${PREDIR}/and* 2>>/dev/null)
+        if [ -n "${ANDFILES}" ] ; then
+            for pre in ${ANDFILES}
+            do
+                ${pre} >> "${_TFILE}" 2>&1
+                SUBCODE=$?
+                if [ "$SUBCODE" -ne "${SUCCESS}" ] ; then
+                    ANDCODE=0
+                fi
+            done
+        fi
+
+        ERREXIT=
+        # Only check for errors if we have the corresponding
+        # script in the directories
+        if [ -n "${ORFILES}" ] && [ "${ORCODE}" -eq "0" ] ; then
+            ERREXIT=1
+        fi
+        if [ -n "${ANDFILES}" ] && [ "${ANDCODE}" -eq "0" ] ; then
+            ERREXIT=1
+        fi
+
+        if [ -n "${ERREXIT}" ] ; then
+            cat "${_TFILE}" >> /dev/stderr
+            rm -f "${_TFILE}"
+            CHECKFAILED=1
+        fi
+    done
+
+
+    if [ -n "${CHECKFAILED}" ] ; then
+        return 1
+    fi
+}
+
+Parse_XML
+
+# parse args
+for arg in $@
+do
+    case $arg in
+        --)
+            shift
+            break
+        ;;
+        --skip-pre)
+            SKIPPRE=1
+            shift
+        ;;
+        --ignore-pre)
+            IGNOREPRE=1
+            shift
+        ;;
+        --offline)
+            # enable flashing of offline only firmware
+            # THIS CAN BE DANGEROUS IF THE DEVICE IS IN USE
+            # DO NOT USE THIS ARGUMENT UNLESS YOU KNOW WHAT YOU ARE DOING
+            export HDU_BOOTENV_SMPJTB=yes  
+            shift
+        ;;
+        -SMPJTB|--SMPJTB|/SMPJTB)
+	    if [ ${_ISITOA} -eq 0 ]
+	    then
+                _HPSUM=1
+                SKIPPRE=1
+                shift
+	    fi
+        ;;
+    esac
+done
+
+if [ -z "${SKIPPRE}" ]
+then
+    chkdeps .
+    _RESULT=$?
+    if [ "0" != "${_RESULT}" ] && [ -z "${IGNOREPRE}" ]
+    then
+        Die ${_RESULT}
+    fi
+fi
+
+
+#if a CPINIT script exists, source it in
+if [ -f ./.cpq_package.inc ]
+then
+    . ./.cpq_package.inc
+fi
+
+
+
+#if a CPINIT script exists, source it in
+if [ -f ./CPINIT ]
+then
+    . ./CPINIT
+fi
+
+
+if [ ${_ISITOA} -ne 0 ]
+then
+    if [ -n "$_OAVERSION" ]
+    then
+        ARGS[0]=-version 
+	ARGS[${#ARGS[@]}]=$_OAVERSION
+    fi
+    if [ -n "$_FILENAME" ]
+    then
+        ARGS[${#ARGS[@]}]=-file 
+	ARGS[${#ARGS[@]}]=$_FILENAME
+    fi
+fi
+
+if [ ${_ISITOA} -eq 0 ]
+then
+    InitLog
+fi
+
+_RESULT=0
+IFS=$'\0'
+
+./.hpsetup ${ARGS[@]} $* 
+
+_RESULT=$?
+
+
+#if a CPFINI script exists, source it in
+if [ -f ./CPFINI ]
+then
+    . ./CPFINI
+fi
+
+if [ "${_HPSUM}" -eq "0" ]
+then
+    Validate_RC
+fi
+
+if [ "${_ISITOA}" -eq "0" ]
+then
+    EndLog
+fi
+ 
+
+Die ${_RESULT}
+
